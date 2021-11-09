@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "MyBlog.JWT.Utility.ApiResult/1.0.0": {
+        "runtime": {
+          "MyBlog.JWT.Utility.ApiResult.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MyBlog.JWT.Utility.ApiResult/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

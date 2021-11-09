@@ -1,0 +1,13 @@
+E:\VS2022\SqlSugarAPI\SqlSugarAPI\MyBlog.IService\bin\Debug\netcoreapp3.1\MyBlog.IService.deps.json
+E:\VS2022\SqlSugarAPI\SqlSugarAPI\MyBlog.IService\bin\Debug\netcoreapp3.1\MyBlog.IService.dll
+E:\VS2022\SqlSugarAPI\SqlSugarAPI\MyBlog.IService\bin\Debug\netcoreapp3.1\MyBlog.IService.pdb
+E:\VS2022\SqlSugarAPI\SqlSugarAPI\MyBlog.IService\bin\Debug\netcoreapp3.1\MyBlog.Model.dll
+E:\VS2022\SqlSugarAPI\SqlSugarAPI\MyBlog.IService\bin\Debug\netcoreapp3.1\MyBlog.Model.pdb
+E:\VS2022\SqlSugarAPI\SqlSugarAPI\MyBlog.IService\obj\Debug\netcoreapp3.1\MyBlog.IService.csproj.AssemblyReference.cache
+E:\VS2022\SqlSugarAPI\SqlSugarAPI\MyBlog.IService\obj\Debug\netcoreapp3.1\MyBlog.IService.GeneratedMSBuildEditorConfig.editorconfig
+E:\VS2022\SqlSugarAPI\SqlSugarAPI\MyBlog.IService\obj\Debug\netcoreapp3.1\MyBlog.IService.AssemblyInfoInputs.cache
+E:\VS2022\SqlSugarAPI\SqlSugarAPI\MyBlog.IService\obj\Debug\netcoreapp3.1\MyBlog.IService.AssemblyInfo.cs
+E:\VS2022\SqlSugarAPI\SqlSugarAPI\MyBlog.IService\obj\Debug\netcoreapp3.1\MyBlog.IService.csproj.CoreCompileInputs.cache
+E:\VS2022\SqlSugarAPI\SqlSugarAPI\MyBlog.IService\obj\Debug\netcoreapp3.1\MyBlog.IService.csproj.CopyComplete
+E:\VS2022\SqlSugarAPI\SqlSugarAPI\MyBlog.IService\obj\Debug\netcoreapp3.1\MyBlog.IService.dll
+E:\VS2022\SqlSugarAPI\SqlSugarAPI\MyBlog.IService\obj\Debug\netcoreapp3.1\MyBlog.IService.pdb

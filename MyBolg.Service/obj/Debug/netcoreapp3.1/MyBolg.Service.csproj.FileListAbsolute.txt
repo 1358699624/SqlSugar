@@ -1,0 +1,17 @@
+E:\VS2022\SqlSugarAPI\SqlSugarAPI\MyBolg.Service\bin\Debug\netcoreapp3.1\MyBolg.Service.deps.json
+E:\VS2022\SqlSugarAPI\SqlSugarAPI\MyBolg.Service\bin\Debug\netcoreapp3.1\MyBolg.Service.dll
+E:\VS2022\SqlSugarAPI\SqlSugarAPI\MyBolg.Service\bin\Debug\netcoreapp3.1\MyBolg.Service.pdb
+E:\VS2022\SqlSugarAPI\SqlSugarAPI\MyBolg.Service\bin\Debug\netcoreapp3.1\MyBlog.IRepository.dll
+E:\VS2022\SqlSugarAPI\SqlSugarAPI\MyBolg.Service\bin\Debug\netcoreapp3.1\MyBlog.IService.dll
+E:\VS2022\SqlSugarAPI\SqlSugarAPI\MyBolg.Service\bin\Debug\netcoreapp3.1\MyBlog.Model.dll
+E:\VS2022\SqlSugarAPI\SqlSugarAPI\MyBolg.Service\bin\Debug\netcoreapp3.1\MyBlog.IRepository.pdb
+E:\VS2022\SqlSugarAPI\SqlSugarAPI\MyBolg.Service\bin\Debug\netcoreapp3.1\MyBlog.IService.pdb
+E:\VS2022\SqlSugarAPI\SqlSugarAPI\MyBolg.Service\bin\Debug\netcoreapp3.1\MyBlog.Model.pdb
+E:\VS2022\SqlSugarAPI\SqlSugarAPI\MyBolg.Service\obj\Debug\netcoreapp3.1\MyBolg.Service.csproj.AssemblyReference.cache
+E:\VS2022\SqlSugarAPI\SqlSugarAPI\MyBolg.Service\obj\Debug\netcoreapp3.1\MyBolg.Service.GeneratedMSBuildEditorConfig.editorconfig
+E:\VS2022\SqlSugarAPI\SqlSugarAPI\MyBolg.Service\obj\Debug\netcoreapp3.1\MyBolg.Service.AssemblyInfoInputs.cache
+E:\VS2022\SqlSugarAPI\SqlSugarAPI\MyBolg.Service\obj\Debug\netcoreapp3.1\MyBolg.Service.AssemblyInfo.cs
+E:\VS2022\SqlSugarAPI\SqlSugarAPI\MyBolg.Service\obj\Debug\netcoreapp3.1\MyBolg.Service.csproj.CoreCompileInputs.cache
+E:\VS2022\SqlSugarAPI\SqlSugarAPI\MyBolg.Service\obj\Debug\netcoreapp3.1\MyBolg.Service.csproj.CopyComplete
+E:\VS2022\SqlSugarAPI\SqlSugarAPI\MyBolg.Service\obj\Debug\netcoreapp3.1\MyBolg.Service.dll
+E:\VS2022\SqlSugarAPI\SqlSugarAPI\MyBolg.Service\obj\Debug\netcoreapp3.1\MyBolg.Service.pdb

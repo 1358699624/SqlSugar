@@ -1,0 +1,12 @@
+E:\VS2022\SqlSugarAPI\SqlSugarAPI\MyBlog.JWT.Utility.ApiResult\bin\Debug\net5.0\MyBlog.JWT.Utility.ApiResult.deps.json
+E:\VS2022\SqlSugarAPI\SqlSugarAPI\MyBlog.JWT.Utility.ApiResult\bin\Debug\net5.0\MyBlog.JWT.Utility.ApiResult.dll
+E:\VS2022\SqlSugarAPI\SqlSugarAPI\MyBlog.JWT.Utility.ApiResult\bin\Debug\net5.0\ref\MyBlog.JWT.Utility.ApiResult.dll
+E:\VS2022\SqlSugarAPI\SqlSugarAPI\MyBlog.JWT.Utility.ApiResult\bin\Debug\net5.0\MyBlog.JWT.Utility.ApiResult.pdb
+E:\VS2022\SqlSugarAPI\SqlSugarAPI\MyBlog.JWT.Utility.ApiResult\obj\Debug\net5.0\MyBlog.JWT.Utility.ApiResult.GeneratedMSBuildEditorConfig.editorconfig
+E:\VS2022\SqlSugarAPI\SqlSugarAPI\MyBlog.JWT.Utility.ApiResult\obj\Debug\net5.0\MyBlog.JWT.Utility.ApiResult.AssemblyInfoInputs.cache
+E:\VS2022\SqlSugarAPI\SqlSugarAPI\MyBlog.JWT.Utility.ApiResult\obj\Debug\net5.0\MyBlog.JWT.Utility.ApiResult.AssemblyInfo.cs
+E:\VS2022\SqlSugarAPI\SqlSugarAPI\MyBlog.JWT.Utility.ApiResult\obj\Debug\net5.0\MyBlog.JWT.Utility.ApiResult.csproj.CoreCompileInputs.cache
+E:\VS2022\SqlSugarAPI\SqlSugarAPI\MyBlog.JWT.Utility.ApiResult\obj\Debug\net5.0\MyBlog.JWT.Utility.ApiResult.dll
+E:\VS2022\SqlSugarAPI\SqlSugarAPI\MyBlog.JWT.Utility.ApiResult\obj\Debug\net5.0\ref\MyBlog.JWT.Utility.ApiResult.dll
+E:\VS2022\SqlSugarAPI\SqlSugarAPI\MyBlog.JWT.Utility.ApiResult\obj\Debug\net5.0\MyBlog.JWT.Utility.ApiResult.pdb
+E:\VS2022\SqlSugarAPI\SqlSugarAPI\MyBlog.JWT.Utility.ApiResult\obj\Debug\net5.0\MyBlog.JWT.Utility.ApiResult.csproj.AssemblyReference.cache
