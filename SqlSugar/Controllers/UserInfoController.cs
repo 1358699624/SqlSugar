@@ -9,11 +9,13 @@ using System.Linq;
 using System.Threading.Tasks;
 using MyBlog.Model;
 using MySqlSugar.Utility.ApiResult;
+using Microsoft.AspNetCore.Authorization;
 
 namespace SqlSugar.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class UserInfoController : ControllerBase
     {
         public UserInfoController(IUserInfoService userInfoService)
@@ -33,19 +35,25 @@ namespace SqlSugar.Controllers
         [HttpGet("GetUserInfo")]
         public async  Task<ActionResult<ApiResult>> GetUserInfo()
         {
-        
-            var data = await _userInfoContext.GetAsync();
+            try
+            {
 
-            if(data==null)
-                return ApiResultHelper.Error("错误数据");
+                var data = await _userInfoContext.GetAsync();
+                if (data == null)
+                    return ApiResultHelper.Error("错误数据");
 
-            //DbScoped.Sugar.Deleteable<UserInfo>().In(1).ExecuteCommand();
-            return ApiResultHelper.Success(data);
+                //DbScoped.Sugar.Deleteable<UserInfo>().In(1).ExecuteCommand();
+                return ApiResultHelper.Success(data);
 
-            /*
-            var data = await _userInfoContext.GetAsync();
-            return Ok(data);
-            */
+                /*
+                var data = await _userInfoContext.GetAsync();
+                return Ok(data);
+                */
+            }
+            catch (Exception ex)
+            {
+                return ApiResultHelper.Error(ex.Message);
+            }
         }
 
         [HttpPost("Create")]
@@ -122,14 +130,39 @@ namespace SqlSugar.Controllers
 
         }
 
-
         [HttpGet("Page")]
         public async Task<ActionResult<ApiResult>> GetPage(int page, int  size) 
         {
-            RefAsync<int> total = 0;
-            var v = await _userInfoContext.QueryAsync(page,size,  total);
-            return ApiResultHelper.Success(v,total);
-        
+            try
+            {
+                RefAsync<int> total = 0;
+                var v = await _userInfoContext.QueryAsync(page, size, total);
+                if (v.Count < 1)
+                {
+                    return ApiResultHelper.Success("未查询到数据");
+                }
+                return ApiResultHelper.Success(v, total);
+            }
+            catch (Exception ex)
+            {
+                return ApiResultHelper.Error(ex.Message);
+            }
+        }
+
+
+        [HttpGet("QueryAsync")]
+        public async Task<ActionResult<ApiResult>> QueryAsyncResult(string username,string phone) 
+        {
+            try
+            {
+                var data = await _userInfoContext.QueryAsync(u => (u.UserName==username || u.UserName.Contains(username)) && u.Phone.Contains(phone));
+                return ApiResultHelper.Success(data);
+            }
+            catch (Exception ex)
+            {
+                return ApiResultHelper.Error(ex.Message);
+            }
+
         }
     }
 }

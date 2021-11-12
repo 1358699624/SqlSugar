@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -5,6 +6,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using Myblog.Repository;
 using Myblog.Service;
@@ -15,6 +17,7 @@ using SqlSugar.IOC;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using System.Text.Encodings.Web;
 using System.Text.Unicode;
 using System.Threading.Tasks;
@@ -44,7 +47,9 @@ namespace SqlSugar
 
             });
 
+            #region SqlSugar
 
+            
             services.AddSqlSugar(new IocConfig()
             {
                 //ConfigId="db01"  多租户用到
@@ -52,8 +57,10 @@ namespace SqlSugar
                 DbType = IocDbType.SqlServer,
                 IsAutoCloseConnection = true//自动释放
             });
-
+            #endregion
             services.AddCustomIOC();
+            //鉴权
+            services.AddCustomJWT();
 
             #region MyRegion注释
 
@@ -93,9 +100,12 @@ namespace SqlSugar
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "SwaggerAPI v1"));
 
             }
-
+            
+           
             app.UseRouting();
-
+            //添加到管道中   JWT 鉴权
+            app.UseAuthentication();
+            //授权
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
@@ -119,7 +129,9 @@ namespace SqlSugar
             services.AddScoped<IUserInfoService, UserInfoService>();
             return services;
         }
-        /*
+        #region  鉴权
+
+        
         public static IServiceCollection AddCustomJWT(this IServiceCollection services)
         {
             services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
@@ -139,6 +151,8 @@ namespace SqlSugar
                   });
             return services;
         }
-        */
+        #endregion
     }
+
+  
 }

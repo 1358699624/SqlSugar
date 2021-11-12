@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "rFDeKtdlskow1ExxhuLNodRlgx+NdGj/hJJG2ISt62lvm1cfDF73FV2D/XD+ASxau/gCO6NdbUXZl1vhpNOxDg==",
+  "dgSpecHash": "j+oAsT9CE9HccQnqviGwlvtKiR9ROrpsZhlD5DxBU3BVeNuWXbH4o1prkcAlaKb2OVGshosJyJBt3WsGIHR1Gg==",
   "success": true,
   "projectFilePath": "E:\\VS2022\\SqlSugarAPI\\SqlSugarAPI\\SqlSugar\\MySqlSugar.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,7 @@
     "C:\\Users\\马连军\\.nuget\\packages\\k4os.compression.lz4\\1.1.11\\k4os.compression.lz4.1.1.11.nupkg.sha512",
     "C:\\Users\\马连军\\.nuget\\packages\\k4os.compression.lz4.streams\\1.1.11\\k4os.compression.lz4.streams.1.1.11.nupkg.sha512",
     "C:\\Users\\马连军\\.nuget\\packages\\k4os.hash.xxhash\\1.0.6\\k4os.hash.xxhash.1.0.6.nupkg.sha512",
+    "C:\\Users\\马连军\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\5.0.12\\microsoft.aspnetcore.authentication.jwtbearer.5.0.12.nupkg.sha512",
     "C:\\Users\\马连军\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\马连军\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.1\\microsoft.data.sqlclient.2.1.1.nupkg.sha512",
     "C:\\Users\\马连军\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",

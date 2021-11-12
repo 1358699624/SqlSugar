@@ -29,3 +29,4 @@ E:\VS2022\SqlSugarAPI\SqlSugarAPI\MyBlog.IService\obj\Debug\net5.0\MyBlog.IServi
 E:\VS2022\SqlSugarAPI\SqlSugarAPI\MyBlog.IService\obj\Debug\net5.0\MyBlog.IService.dll
 E:\VS2022\SqlSugarAPI\SqlSugarAPI\MyBlog.IService\obj\Debug\net5.0\ref\MyBlog.IService.dll
 E:\VS2022\SqlSugarAPI\SqlSugarAPI\MyBlog.IService\obj\Debug\net5.0\MyBlog.IService.pdb
+E:\VS2022\SqlSugarAPI\SqlSugarAPI\MyBlog.IService\obj\Debug\net5.0\MyBlog.IService.csproj.CopyComplete
