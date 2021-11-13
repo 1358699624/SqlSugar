@@ -35,4 +35,3 @@ E:\VS2022\SqlSugarAPI\SqlSugarAPI\MyBolg.Service\obj\Debug\net5.0\MyBolg.Service
 E:\VS2022\SqlSugarAPI\SqlSugarAPI\MyBolg.Service\obj\Debug\net5.0\MyBolg.Service.dll
 E:\VS2022\SqlSugarAPI\SqlSugarAPI\MyBolg.Service\obj\Debug\net5.0\ref\MyBolg.Service.dll
 E:\VS2022\SqlSugarAPI\SqlSugarAPI\MyBolg.Service\obj\Debug\net5.0\MyBolg.Service.pdb
-E:\VS2022\SqlSugarAPI\SqlSugarAPI\MyBolg.Service\obj\Debug\net5.0\MyBolg.Service.csproj.CopyComplete

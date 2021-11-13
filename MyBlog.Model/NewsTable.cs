@@ -19,5 +19,20 @@ namespace MyBlog.Model
         [SugarColumn(IsNullable = true)]
         public DateTime CreateTime { get; set; }
 
+        public int codeFirstId { get; set; }
+
+        public int userInfoId { get; set; }
+
+        /// <summary>
+        /// 类型，不映射到数据库
+        /// </summary>
+        [SugarColumn(IsIgnore = true)]
+        public CodeFirstTable codeFirstTable { get; set; }
+
+        /// <summary>
+        /// 类型，不映射到数据库
+        /// </summary>
+        [SugarColumn(IsIgnore = true)]
+        public UserInfo userInfo { get; set; }
     }
 }

@@ -24,14 +24,13 @@ namespace MyBlog.JWT.Utility.ApiResult.Controllers
 
 
         [HttpPost("Login")]
-        public async Task<ApiResult> Login(string name, string text) 
+        public async Task<ApiResult> Login(string name) 
         {
             try
             {
                 //数据校验
-                string pwd = MD5Helper.MD5Encrypt32(text);
 
-                var jtw = await _icodeFirstService.GetAsync(c => c.Name == name && c.Text == pwd);
+                var jtw = await _icodeFirstService.GetAsync(c => c.Name == name);
 
                 if (jtw != null)
                 {
@@ -39,7 +38,7 @@ namespace MyBlog.JWT.Utility.ApiResult.Controllers
                     var claims = new Claim[]
                         {
                 new Claim(ClaimTypes.Name, jtw.Name),
-                new Claim("Id", jtw.Id.ToString()),
+                new Claim("Id", jtw.Id.ToString()),//此Id非常重要，否则后面如果用到id还要重新查询用户表
                 new Claim("Name", jtw.Name)
                             //不能放敏感信息 
                         };

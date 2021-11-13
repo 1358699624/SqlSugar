@@ -31,17 +31,17 @@ namespace Myblog.Service
             return await _iBaseRepository.FindAsync(id);
         }
 
-        public async Task<List<T>> GetAsync()
+        public  async Task<List<T>> GetAsync()
         {
             return await _iBaseRepository.GetAsync();
         }
 
-        public async Task<T> GetAsync(Expression<Func<T, bool>> func)
+        public  async Task<T> GetAsync(Expression<Func<T, bool>> func)
         {
             return await _iBaseRepository.GetAsync(func);
         }
 
-        public async Task<List<T>> QueryAsync(Expression<Func<T, bool>> func)
+        public  async Task<List<T>> QueryAsync(Expression<Func<T, bool>> func)
         {
             return await _iBaseRepository.QueryAsync(func);
         }
@@ -59,6 +59,11 @@ namespace Myblog.Service
         public  async Task<bool> UpdateAsync(T t)
         {
             return await _iBaseRepository.UpdateAsync(t);
+        }
+
+        public  async Task<T> GetBaseAsync(Expression<Func<T, bool>> func)
+        {
+            return await _iBaseRepository.GetAsync(func);
         }
     }
 }

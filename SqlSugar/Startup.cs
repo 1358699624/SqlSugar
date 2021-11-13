@@ -13,6 +13,8 @@ using Myblog.Service;
 using MyBlog.IRepository;
 using MyBlog.IService;
 using MyBlog.Model;
+using MyBlog.Utility;
+using MySqlSugar.Utility;
 using SqlSugar.IOC;
 using System;
 using System.Collections.Generic;
@@ -45,6 +47,32 @@ namespace SqlSugar
                 c.ResolveConflictingActions(apiDescriptions => apiDescriptions.First());
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Myblog.WebApi", Version = "v1" });
 
+
+                #region Swagger使用鉴权组件
+                c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+                {
+                    In = ParameterLocation.Header,
+                    Type = SecuritySchemeType.ApiKey,
+                    Description = "直接在下框中输入Bearer {token}（注意两者之间是一个空格）",
+                    Name = "Authorization",
+                    BearerFormat = "JWT",
+                    Scheme = "Bearer"
+                });
+                c.AddSecurityRequirement(new OpenApiSecurityRequirement
+        {
+          {
+            new OpenApiSecurityScheme
+            {
+              Reference=new OpenApiReference
+              {
+                Type=ReferenceType.SecurityScheme,
+                Id="Bearer"
+              }
+            },
+            new string[] {}
+          }
+        });
+                #endregion
             });
 
             #region SqlSugar
@@ -59,8 +87,13 @@ namespace SqlSugar
             });
             #endregion
             services.AddCustomIOC();
+
+
             //鉴权
             services.AddCustomJWT();
+
+            //使用AutoMapper   DTO
+            services.AddAutoMapper(typeof(CodeFirstMapper));
 
             #region MyRegion注释
 
@@ -72,12 +105,6 @@ namespace SqlSugar
                 DbType = DbType.SqlServer,
                 IsAutoCloseConnection = true//自动释放
             });*/
-
-
-
-
-
-
 
             /*
             //控制器返回json中文不乱码

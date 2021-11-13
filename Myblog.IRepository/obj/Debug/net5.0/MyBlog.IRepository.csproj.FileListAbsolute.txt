@@ -12,4 +12,3 @@ E:\VS2022\SqlSugarAPI\SqlSugarAPI\Myblog.IRepository\obj\Debug\net5.0\MyBlog.IRe
 E:\VS2022\SqlSugarAPI\SqlSugarAPI\Myblog.IRepository\obj\Debug\net5.0\MyBlog.IRepository.dll
 E:\VS2022\SqlSugarAPI\SqlSugarAPI\Myblog.IRepository\obj\Debug\net5.0\ref\MyBlog.IRepository.dll
 E:\VS2022\SqlSugarAPI\SqlSugarAPI\Myblog.IRepository\obj\Debug\net5.0\MyBlog.IRepository.pdb
-E:\VS2022\SqlSugarAPI\SqlSugarAPI\Myblog.IRepository\obj\Debug\net5.0\MyBlog.IRepository.csproj.CopyComplete

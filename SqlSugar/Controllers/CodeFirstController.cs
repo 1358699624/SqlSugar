@@ -1,8 +1,10 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using MyBlog.IService;
 using MyBlog.Model;
+using MyBlog.Utility;
 using MySqlSugar.Utility;
 using MySqlSugar.Utility.ApiResult;
 using System;
@@ -26,7 +28,6 @@ namespace MySqlSugar.Controllers
             _icodeFirstService = icodeFirstService;
         }
         #endregion
-
 
         /// <summary>
         /// 查询账号
@@ -96,11 +97,10 @@ namespace MySqlSugar.Controllers
         {
             try
             {
-                var zhanghao = await _icodeFirstService.GetAsync(c => c.Name == name);
-                if (string.IsNullOrEmpty(zhanghao.Id.ToString()))
-                    return ApiResultHelper.Error("未查询到数据");
-                zhanghao.Text = text;
 
+                int id = Convert.ToInt32(this.User.FindFirst("Id").Value);//鉴权JWT使用
+                var zhanghao = await _icodeFirstService.FindAsync(id);
+                zhanghao.Text = MD5Helper.MD5Encrypt32(text);
                 var b = await _icodeFirstService.UpdateAsync(zhanghao);
                 if (!b)
                     return ApiResultHelper.Error("未查询到数据");
@@ -119,7 +119,7 @@ namespace MySqlSugar.Controllers
         /// 删除账号
         /// </summary>
         /// <param name="name"></param>
-        /// <returns></returns>
+        /// <returns></returns> 
         [HttpDelete("Delete")]
         public async Task<ActionResult<ApiResult>> Delete(string name)
         {
@@ -140,6 +140,42 @@ namespace MySqlSugar.Controllers
 
                 return ApiResultHelper.Error(ex.Message);
             }
+
+        }
+
+
+
+        [AllowAnonymous]//匿名访问，不使用DTO
+        [HttpGet("GetFirsAsync")]
+        public async Task<ApiResult> GetFirsAsync([FromServices]IMapper mapper,int  id)//int id
+        {
+            try
+            {
+                /*
+            //返回有MD5密码,有密码
+            var codefirst = await _icodeFirstService.FindAsync(id);
+            return ApiResultHelper.Success(codefirst);
+            */
+             
+                
+                //返回DTO 无密码
+             
+                
+                var codefirst = await _icodeFirstService.FindAsync(id);//返回有密码
+             
+                
+                var newcode = mapper.Map<CodeFirstDTO>(codefirst);//返回DTO
+             
+                
+                return ApiResultHelper.Success(newcode);
+            }
+            catch (Exception ex)
+            {
+
+                return ApiResultHelper.Error(ex.Message);
+            }
+
+
 
         }
     }

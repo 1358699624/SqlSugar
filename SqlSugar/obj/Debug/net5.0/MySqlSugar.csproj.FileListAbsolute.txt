@@ -96,4 +96,6 @@ E:\VS2022\SqlSugarAPI\SqlSugarAPI\SqlSugar\obj\Debug\net5.0\ref\MySqlSugar.dll
 E:\VS2022\SqlSugarAPI\SqlSugarAPI\SqlSugar\obj\Debug\net5.0\MySqlSugar.pdb
 E:\VS2022\SqlSugarAPI\SqlSugarAPI\SqlSugar\obj\Debug\net5.0\MySqlSugar.genruntimeconfig.cache
 E:\VS2022\SqlSugarAPI\SqlSugarAPI\SqlSugar\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\VS2022\SqlSugarAPI\SqlSugarAPI\SqlSugar\bin\Debug\net5.0\AutoMapper.dll
+E:\VS2022\SqlSugarAPI\SqlSugarAPI\SqlSugar\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 E:\VS2022\SqlSugarAPI\SqlSugarAPI\SqlSugar\obj\Debug\net5.0\MySqlSugar.csproj.CopyComplete

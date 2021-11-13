@@ -59,6 +59,8 @@ namespace MyBlog.IRepostitory
         Task<List<T>> QueryAsync(Expression<Func<T,bool>> func);
 
 
+      
+
         /// <summary>
         /// 分页查询
         /// </summary>

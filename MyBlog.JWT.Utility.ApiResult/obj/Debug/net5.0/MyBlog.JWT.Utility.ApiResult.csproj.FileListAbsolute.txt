@@ -95,3 +95,4 @@ E:\VS2022\SqlSugarAPI\SqlSugarAPI\MyBlog.JWT.Utility.ApiResult\bin\Debug\net5.0\
 E:\VS2022\SqlSugarAPI\SqlSugarAPI\MyBlog.JWT.Utility.ApiResult\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 E:\VS2022\SqlSugarAPI\SqlSugarAPI\MyBlog.JWT.Utility.ApiResult\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 E:\VS2022\SqlSugarAPI\SqlSugarAPI\MyBlog.JWT.Utility.ApiResult\obj\Debug\net5.0\MyBlog.JWT.Utility.ApiResult.MvcApplicationPartsAssemblyInfo.cs
+E:\VS2022\SqlSugarAPI\SqlSugarAPI\MyBlog.JWT.Utility.ApiResult\obj\Debug\net5.0\MyBlog.JWT.Utility.ApiResult.csproj.CopyComplete

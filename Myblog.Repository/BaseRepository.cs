@@ -33,19 +33,19 @@ namespace MyBlog.Repository
                 //如果用SqlSugarScope
                 //base.Context=单例的SqlSugarScope
             }
-            /*
-
+            
+            
             //如果不存在创建数据库
-           base.Context.DbMaintenance.CreateDatabase();
+           //base.Context.DbMaintenance.CreateDatabase();
 
             //base.Context.CodeFirst.SetStringDefaultLength(200).InitTables(typeof(CodeFirstTable1));//这样一个表就能成功创建了
             
-            base.Context.CodeFirst.InitTables(
-                typeof(CodeFirstTable),
-                typeof(UserInfo),
-                typeof(NewsTable)
-                );//这样一个表就能成功创建了
-            */
+            //base.Context.CodeFirst.InitTables(
+                //typeof(CodeFirstTable),
+                //typeof(UserInfo),
+                //typeof(NewsTable)
+              //  );//这样一个表就能成功创建了
+            
         }
 
         public async  Task<bool> CreateAsync(T t)
@@ -58,12 +58,19 @@ namespace MyBlog.Repository
             return await base.DeleteByIdAsync(id);
         }
 
-        public async Task<List<T>> GetAsync()
+
+        public virtual async Task<List<T>> GetAsync()
         {
             return await base.GetListAsync();
         }
 
-        public async Task<List<T>> QueryAsync(Expression<Func<T, bool>> func)
+        //没有找到对他的引用
+        public virtual async Task<List<T>> QueryAsync()
+        {
+            return await base.GetListAsync();
+        }
+
+        public virtual async Task<List<T>> QueryAsync(Expression<Func<T, bool>> func)
         {
             return await base.GetListAsync(func);
         }
@@ -79,13 +86,13 @@ namespace MyBlog.Repository
             return await base.GetByIdAsync(id);
         }
 
-        public async Task<List<T>> QueryAsync(int page, int size, RefAsync<int> total)
+        public virtual async Task<List<T>> QueryAsync(int page, int size, RefAsync<int> total)
         {
             return await base.Context.Queryable<T>()
                 .ToPageListAsync(page, size,total);
         }
 
-        public async Task<List<T>> QueryAsync(Expression<Func<T, bool>> func, int page, int size, RefAsync<int> total)
+        public virtual async Task<List<T>> QueryAsync(Expression<Func<T, bool>> func, int page, int size, RefAsync<int> total)
         {
             return await base.Context.Queryable<T>()
                 .Where(func)
@@ -96,5 +103,6 @@ namespace MyBlog.Repository
         {
             return await base.GetSingleAsync(func);
         }
+
     }
 }
