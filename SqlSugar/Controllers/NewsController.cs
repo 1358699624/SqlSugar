@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using MyBlog.IService;
 using MySqlSugar.Utility.ApiResult;
+using SqlSugar;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -31,6 +32,26 @@ namespace MySqlSugar.Controllers
 
                 return ApiResultHelper.Success(souce);
 
+            }
+            catch (Exception ex)
+            {
+                return ApiResultHelper.Error(ex.Message);
+            }
+        }
+
+
+
+        [AllowAnonymous]
+        [HttpGet("Page")]
+        public async Task<ApiResult> GetPage(int page,int size) 
+        {
+            try
+            {
+
+                RefAsync<int> refAsync = 0;
+                var pages = await _inewservice.QueryAsync(page, size, refAsync);
+
+                return ApiResultHelper.Success(pages, refAsync);
             }
             catch (Exception ex)
             {
