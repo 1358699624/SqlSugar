@@ -188,6 +188,8 @@ UserName
 ```
 
 ```
-```
+```2021年11月13日
 完成dto 及复杂导航查询（类似于多表查询）
 
+2021年11月14日
+使用Mamory 缓存,Text控制器中有特性, 新增 Filter特性类Attrebute,Startup 新增service服务
