@@ -33,19 +33,15 @@ namespace MyBlog.Repository
                 //如果用SqlSugarScope
                 //base.Context=单例的SqlSugarScope
             }
-            
-            
-            //如果不存在创建数据库
-           //base.Context.DbMaintenance.CreateDatabase();
-
             //base.Context.CodeFirst.SetStringDefaultLength(200).InitTables(typeof(CodeFirstTable1));//这样一个表就能成功创建了
-            
-            //base.Context.CodeFirst.InitTables(
-                //typeof(CodeFirstTable),
-                //typeof(UserInfo),
-                //typeof(NewsTable)
-              //  );//这样一个表就能成功创建了
-            
+            //如果不存在创建数据库
+            base.Context.DbMaintenance.CreateDatabase();
+            base.Context.CodeFirst.InitTables(
+                typeof(CodeFirstTable),
+                typeof(UserInfo),
+                typeof(NewsTable)
+                );//这样一个表就能成功创建了
+
         }
 
         public async  Task<bool> CreateAsync(T t)

@@ -10,3 +10,15 @@ E:\VS2022\SqlSugarAPI\SqlSugarAPI\MyBlog.Model\obj\Debug\net5.0\MyBlog.Model.dll
 E:\VS2022\SqlSugarAPI\SqlSugarAPI\MyBlog.Model\obj\Debug\net5.0\ref\MyBlog.Model.dll
 E:\VS2022\SqlSugarAPI\SqlSugarAPI\MyBlog.Model\obj\Debug\net5.0\MyBlog.Model.pdb
 E:\VS2022\SqlSugarAPI\SqlSugarAPI\MyBlog.Model\obj\Debug\net5.0\MyBlog.Model.csproj.AssemblyReference.cache
+D:\VS2019\SqlSugatApi\SqlSugar\MyBlog.Model\bin\Debug\net5.0\MyBlog.Model.deps.json
+D:\VS2019\SqlSugatApi\SqlSugar\MyBlog.Model\bin\Debug\net5.0\MyBlog.Model.dll
+D:\VS2019\SqlSugatApi\SqlSugar\MyBlog.Model\bin\Debug\net5.0\ref\MyBlog.Model.dll
+D:\VS2019\SqlSugatApi\SqlSugar\MyBlog.Model\bin\Debug\net5.0\MyBlog.Model.pdb
+D:\VS2019\SqlSugatApi\SqlSugar\MyBlog.Model\obj\Debug\net5.0\MyBlog.Model.csproj.AssemblyReference.cache
+D:\VS2019\SqlSugatApi\SqlSugar\MyBlog.Model\obj\Debug\net5.0\MyBlog.Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\VS2019\SqlSugatApi\SqlSugar\MyBlog.Model\obj\Debug\net5.0\MyBlog.Model.AssemblyInfoInputs.cache
+D:\VS2019\SqlSugatApi\SqlSugar\MyBlog.Model\obj\Debug\net5.0\MyBlog.Model.AssemblyInfo.cs
+D:\VS2019\SqlSugatApi\SqlSugar\MyBlog.Model\obj\Debug\net5.0\MyBlog.Model.csproj.CoreCompileInputs.cache
+D:\VS2019\SqlSugatApi\SqlSugar\MyBlog.Model\obj\Debug\net5.0\MyBlog.Model.dll
+D:\VS2019\SqlSugatApi\SqlSugar\MyBlog.Model\obj\Debug\net5.0\ref\MyBlog.Model.dll
+D:\VS2019\SqlSugatApi\SqlSugar\MyBlog.Model\obj\Debug\net5.0\MyBlog.Model.pdb

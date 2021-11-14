@@ -24,6 +24,7 @@ using System.Text.Encodings.Web;
 using System.Text.Unicode;
 using System.Threading.Tasks;
 
+
 namespace SqlSugar
 {
     public class Startup
@@ -94,6 +95,10 @@ namespace SqlSugar
 
             //使用AutoMapper   DTO
             services.AddAutoMapper(typeof(CodeFirstMapper));
+
+
+            //使用缓存
+            services.AddMemoryCache();
 
             #region MyRegion注释
 
