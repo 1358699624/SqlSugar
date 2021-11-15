@@ -92,6 +92,19 @@
           "lib/netstandard2.0/K4os.Hash.xxHash.dll": {}
         }
       },
+      "Microsoft.AspNet.WebApi.Client/5.2.7": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "10.0.1",
+          "Newtonsoft.Json.Bson": "1.0.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Net.Http.Formatting.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Net.Http.Formatting.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Authentication.JwtBearer/5.0.12": {
         "type": "package",
         "dependencies": {
@@ -516,6 +529,19 @@
         },
         "runtime": {
           "lib/netstandard1.3/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Newtonsoft.Json.Bson/1.0.1": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1",
+          "Newtonsoft.Json": "10.0.1"
+        },
+        "compile": {
+          "lib/netstandard1.3/Newtonsoft.Json.Bson.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/Newtonsoft.Json.Bson.dll": {}
         }
       },
       "Npgsql/4.1.3.1": {
@@ -2650,6 +2676,23 @@
         "lib/netstandard2.0/K4os.Hash.xxHash.xml"
       ]
     },
+    "Microsoft.AspNet.WebApi.Client/5.2.7": {
+      "sha512": "/76fAHknzvFqbznS6Uj2sOyE9rJB3PltY+f53TH8dX9RiGhk02EhuFCWljSj5nnqKaTsmma8DFR50OGyQ4yJ1g==",
+      "type": "package",
+      "path": "microsoft.aspnet.webapi.client/5.2.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/System.Net.Http.Formatting.dll",
+        "lib/net45/System.Net.Http.Formatting.xml",
+        "lib/netstandard2.0/System.Net.Http.Formatting.dll",
+        "lib/netstandard2.0/System.Net.Http.Formatting.xml",
+        "lib/portable-wp8+netcore45+net45+wp81+wpa81/System.Net.Http.Formatting.dll",
+        "lib/portable-wp8+netcore45+net45+wp81+wpa81/System.Net.Http.Formatting.xml",
+        "microsoft.aspnet.webapi.client.5.2.7.nupkg.sha512",
+        "microsoft.aspnet.webapi.client.nuspec"
+      ]
+    },
     "Microsoft.AspNetCore.Authentication.JwtBearer/5.0.12": {
       "sha512": "3JwsAApGFKFBVvlV8vMNdF04Mb8zPuHT5q8sunwNTbaN4JtjXLVGKAyUCy+I1JeqP+3EKfZxe3wMj4fVEOLKlA==",
       "type": "package",
@@ -3371,6 +3414,21 @@
         "newtonsoft.json.10.0.3.nupkg.sha512",
         "newtonsoft.json.nuspec",
         "tools/install.ps1"
+      ]
+    },
+    "Newtonsoft.Json.Bson/1.0.1": {
+      "sha512": "5PYT/IqQ+UK31AmZiSS102R6EsTo+LGTSI8bp7WAUqDKaF4wHXD8U9u4WxTI1vc64tYi++8p3dk3WWNqPFgldw==",
+      "type": "package",
+      "path": "newtonsoft.json.bson/1.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Newtonsoft.Json.Bson.dll",
+        "lib/net45/Newtonsoft.Json.Bson.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.Bson.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.Bson.xml",
+        "newtonsoft.json.bson.1.0.1.nupkg.sha512",
+        "newtonsoft.json.bson.nuspec"
       ]
     },
     "Npgsql/4.1.3.1": {
@@ -8263,6 +8321,7 @@
   "projectFileDependencyGroups": {
     "net5.0": [
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 8.1.1",
+      "Microsoft.AspNet.WebApi.Client >= 5.2.7",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 5.0.12",
       "Microsoft.Extensions.Caching.Memory >= 6.0.0",
       "MyBlog.IRepository >= 1.0.0",
@@ -8275,23 +8334,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\m\\.nuget\\packages\\": {},
+    "C:\\Users\\马连军\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\VS2019\\SqlSugatApi\\SqlSugar\\SqlSugar\\MySqlSugar.csproj",
+      "projectUniqueName": "E:\\VS2022\\SqlSugarAPI\\SqlSugarAPI\\SqlSugar\\MySqlSugar.csproj",
       "projectName": "MySqlSugar",
-      "projectPath": "D:\\VS2019\\SqlSugatApi\\SqlSugar\\SqlSugar\\MySqlSugar.csproj",
-      "packagesPath": "C:\\Users\\m\\.nuget\\packages\\",
-      "outputPath": "D:\\VS2019\\SqlSugatApi\\SqlSugar\\SqlSugar\\obj\\",
+      "projectPath": "E:\\VS2022\\SqlSugarAPI\\SqlSugarAPI\\SqlSugar\\MySqlSugar.csproj",
+      "packagesPath": "C:\\Users\\马连军\\.nuget\\packages\\",
+      "outputPath": "E:\\VS2022\\SqlSugarAPI\\SqlSugarAPI\\SqlSugar\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\m\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\马连军\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -8306,17 +8365,17 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\VS2019\\SqlSugatApi\\SqlSugar\\Myblog.IRepository\\MyBlog.IRepository.csproj": {
-              "projectPath": "D:\\VS2019\\SqlSugatApi\\SqlSugar\\Myblog.IRepository\\MyBlog.IRepository.csproj"
+            "E:\\VS2022\\SqlSugarAPI\\SqlSugarAPI\\Myblog.IRepository\\MyBlog.IRepository.csproj": {
+              "projectPath": "E:\\VS2022\\SqlSugarAPI\\SqlSugarAPI\\Myblog.IRepository\\MyBlog.IRepository.csproj"
             },
-            "D:\\VS2019\\SqlSugatApi\\SqlSugar\\MyBlog.IService\\MyBlog.IService.csproj": {
-              "projectPath": "D:\\VS2019\\SqlSugatApi\\SqlSugar\\MyBlog.IService\\MyBlog.IService.csproj"
+            "E:\\VS2022\\SqlSugarAPI\\SqlSugarAPI\\MyBlog.IService\\MyBlog.IService.csproj": {
+              "projectPath": "E:\\VS2022\\SqlSugarAPI\\SqlSugarAPI\\MyBlog.IService\\MyBlog.IService.csproj"
             },
-            "D:\\VS2019\\SqlSugatApi\\SqlSugar\\Myblog.Repository\\Myblog.Repository.csproj": {
-              "projectPath": "D:\\VS2019\\SqlSugatApi\\SqlSugar\\Myblog.Repository\\Myblog.Repository.csproj"
+            "E:\\VS2022\\SqlSugarAPI\\SqlSugarAPI\\Myblog.Repository\\Myblog.Repository.csproj": {
+              "projectPath": "E:\\VS2022\\SqlSugarAPI\\SqlSugarAPI\\Myblog.Repository\\Myblog.Repository.csproj"
             },
-            "D:\\VS2019\\SqlSugatApi\\SqlSugar\\MyBolg.Service\\MyBolg.Service.csproj": {
-              "projectPath": "D:\\VS2019\\SqlSugatApi\\SqlSugar\\MyBolg.Service\\MyBolg.Service.csproj"
+            "E:\\VS2022\\SqlSugarAPI\\SqlSugarAPI\\MyBolg.Service\\MyBolg.Service.csproj": {
+              "projectPath": "E:\\VS2022\\SqlSugarAPI\\SqlSugarAPI\\MyBolg.Service\\MyBolg.Service.csproj"
             }
           }
         }
@@ -8334,6 +8393,10 @@
           "AutoMapper.Extensions.Microsoft.DependencyInjection": {
             "target": "Package",
             "version": "[8.1.1, )"
+          },
+          "Microsoft.AspNet.WebApi.Client": {
+            "target": "Package",
+            "version": "[5.2.7, )"
           },
           "Microsoft.AspNetCore.Authentication.JwtBearer": {
             "target": "Package",
@@ -8374,7 +8437,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

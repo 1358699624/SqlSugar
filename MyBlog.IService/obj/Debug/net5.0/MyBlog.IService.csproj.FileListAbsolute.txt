@@ -44,3 +44,4 @@ D:\VS2019\SqlSugatApi\SqlSugar\MyBlog.IService\obj\Debug\net5.0\MyBlog.IService.
 D:\VS2019\SqlSugatApi\SqlSugar\MyBlog.IService\obj\Debug\net5.0\MyBlog.IService.dll
 D:\VS2019\SqlSugatApi\SqlSugar\MyBlog.IService\obj\Debug\net5.0\ref\MyBlog.IService.dll
 D:\VS2019\SqlSugatApi\SqlSugar\MyBlog.IService\obj\Debug\net5.0\MyBlog.IService.pdb
+E:\VS2022\SqlSugarAPI\SqlSugarAPI\MyBlog.IService\obj\Debug\net5.0\MyBlog.IService.csproj.CopyComplete

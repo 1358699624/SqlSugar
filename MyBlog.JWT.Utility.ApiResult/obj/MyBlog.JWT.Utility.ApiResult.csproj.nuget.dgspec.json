@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\VS2019\\SqlSugatApi\\SqlSugar\\MyBlog.JWT.Utility.ApiResult\\MyBlog.JWT.Utility.ApiResult.csproj": {}
+    "E:\\VS2022\\SqlSugarAPI\\SqlSugarAPI\\MyBlog.JWT.Utility.ApiResult\\MyBlog.JWT.Utility.ApiResult.csproj": {}
   },
   "projects": {
-    "D:\\VS2019\\SqlSugatApi\\SqlSugar\\Myblog.IRepository\\MyBlog.IRepository.csproj": {
+    "E:\\VS2022\\SqlSugarAPI\\SqlSugarAPI\\Myblog.IRepository\\MyBlog.IRepository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\VS2019\\SqlSugatApi\\SqlSugar\\Myblog.IRepository\\MyBlog.IRepository.csproj",
+        "projectUniqueName": "E:\\VS2022\\SqlSugarAPI\\SqlSugarAPI\\Myblog.IRepository\\MyBlog.IRepository.csproj",
         "projectName": "MyBlog.IRepository",
-        "projectPath": "D:\\VS2019\\SqlSugatApi\\SqlSugar\\Myblog.IRepository\\MyBlog.IRepository.csproj",
-        "packagesPath": "C:\\Users\\m\\.nuget\\packages\\",
-        "outputPath": "D:\\VS2019\\SqlSugatApi\\SqlSugar\\Myblog.IRepository\\obj\\",
+        "projectPath": "E:\\VS2022\\SqlSugarAPI\\SqlSugarAPI\\Myblog.IRepository\\MyBlog.IRepository.csproj",
+        "packagesPath": "C:\\Users\\马连军\\.nuget\\packages\\",
+        "outputPath": "E:\\VS2022\\SqlSugarAPI\\SqlSugarAPI\\Myblog.IRepository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\m\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\马连军\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,8 +32,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\VS2019\\SqlSugatApi\\SqlSugar\\MyBlog.Model\\MyBlog.Model.csproj": {
-                "projectPath": "D:\\VS2019\\SqlSugatApi\\SqlSugar\\MyBlog.Model\\MyBlog.Model.csproj"
+              "E:\\VS2022\\SqlSugarAPI\\SqlSugarAPI\\MyBlog.Model\\MyBlog.Model.csproj": {
+                "projectPath": "E:\\VS2022\\SqlSugarAPI\\SqlSugarAPI\\MyBlog.Model\\MyBlog.Model.csproj"
               }
             }
           }
@@ -62,24 +62,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\VS2019\\SqlSugatApi\\SqlSugar\\MyBlog.IService\\MyBlog.IService.csproj": {
+    "E:\\VS2022\\SqlSugarAPI\\SqlSugarAPI\\MyBlog.IService\\MyBlog.IService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\VS2019\\SqlSugatApi\\SqlSugar\\MyBlog.IService\\MyBlog.IService.csproj",
+        "projectUniqueName": "E:\\VS2022\\SqlSugarAPI\\SqlSugarAPI\\MyBlog.IService\\MyBlog.IService.csproj",
         "projectName": "MyBlog.IService",
-        "projectPath": "D:\\VS2019\\SqlSugatApi\\SqlSugar\\MyBlog.IService\\MyBlog.IService.csproj",
-        "packagesPath": "C:\\Users\\m\\.nuget\\packages\\",
-        "outputPath": "D:\\VS2019\\SqlSugatApi\\SqlSugar\\MyBlog.IService\\obj\\",
+        "projectPath": "E:\\VS2022\\SqlSugarAPI\\SqlSugarAPI\\MyBlog.IService\\MyBlog.IService.csproj",
+        "packagesPath": "C:\\Users\\马连军\\.nuget\\packages\\",
+        "outputPath": "E:\\VS2022\\SqlSugarAPI\\SqlSugarAPI\\MyBlog.IService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\m\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\马连军\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -94,8 +94,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\VS2019\\SqlSugatApi\\SqlSugar\\MyBlog.Model\\MyBlog.Model.csproj": {
-                "projectPath": "D:\\VS2019\\SqlSugatApi\\SqlSugar\\MyBlog.Model\\MyBlog.Model.csproj"
+              "E:\\VS2022\\SqlSugarAPI\\SqlSugarAPI\\MyBlog.Model\\MyBlog.Model.csproj": {
+                "projectPath": "E:\\VS2022\\SqlSugarAPI\\SqlSugarAPI\\MyBlog.Model\\MyBlog.Model.csproj"
               }
             }
           }
@@ -124,24 +124,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\VS2019\\SqlSugatApi\\SqlSugar\\MyBlog.JWT.Utility.ApiResult\\MyBlog.JWT.Utility.ApiResult.csproj": {
+    "E:\\VS2022\\SqlSugarAPI\\SqlSugarAPI\\MyBlog.JWT.Utility.ApiResult\\MyBlog.JWT.Utility.ApiResult.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\VS2019\\SqlSugatApi\\SqlSugar\\MyBlog.JWT.Utility.ApiResult\\MyBlog.JWT.Utility.ApiResult.csproj",
+        "projectUniqueName": "E:\\VS2022\\SqlSugarAPI\\SqlSugarAPI\\MyBlog.JWT.Utility.ApiResult\\MyBlog.JWT.Utility.ApiResult.csproj",
         "projectName": "MyBlog.JWT.Utility.ApiResult",
-        "projectPath": "D:\\VS2019\\SqlSugatApi\\SqlSugar\\MyBlog.JWT.Utility.ApiResult\\MyBlog.JWT.Utility.ApiResult.csproj",
-        "packagesPath": "C:\\Users\\m\\.nuget\\packages\\",
-        "outputPath": "D:\\VS2019\\SqlSugatApi\\SqlSugar\\MyBlog.JWT.Utility.ApiResult\\obj\\",
+        "projectPath": "E:\\VS2022\\SqlSugarAPI\\SqlSugarAPI\\MyBlog.JWT.Utility.ApiResult\\MyBlog.JWT.Utility.ApiResult.csproj",
+        "packagesPath": "C:\\Users\\马连军\\.nuget\\packages\\",
+        "outputPath": "E:\\VS2022\\SqlSugarAPI\\SqlSugarAPI\\MyBlog.JWT.Utility.ApiResult\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\m\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\马连军\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -156,20 +156,20 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\VS2019\\SqlSugatApi\\SqlSugar\\Myblog.IRepository\\MyBlog.IRepository.csproj": {
-                "projectPath": "D:\\VS2019\\SqlSugatApi\\SqlSugar\\Myblog.IRepository\\MyBlog.IRepository.csproj"
+              "E:\\VS2022\\SqlSugarAPI\\SqlSugarAPI\\Myblog.IRepository\\MyBlog.IRepository.csproj": {
+                "projectPath": "E:\\VS2022\\SqlSugarAPI\\SqlSugarAPI\\Myblog.IRepository\\MyBlog.IRepository.csproj"
               },
-              "D:\\VS2019\\SqlSugatApi\\SqlSugar\\MyBlog.IService\\MyBlog.IService.csproj": {
-                "projectPath": "D:\\VS2019\\SqlSugatApi\\SqlSugar\\MyBlog.IService\\MyBlog.IService.csproj"
+              "E:\\VS2022\\SqlSugarAPI\\SqlSugarAPI\\MyBlog.IService\\MyBlog.IService.csproj": {
+                "projectPath": "E:\\VS2022\\SqlSugarAPI\\SqlSugarAPI\\MyBlog.IService\\MyBlog.IService.csproj"
               },
-              "D:\\VS2019\\SqlSugatApi\\SqlSugar\\MyBlog.Model\\MyBlog.Model.csproj": {
-                "projectPath": "D:\\VS2019\\SqlSugatApi\\SqlSugar\\MyBlog.Model\\MyBlog.Model.csproj"
+              "E:\\VS2022\\SqlSugarAPI\\SqlSugarAPI\\MyBlog.Model\\MyBlog.Model.csproj": {
+                "projectPath": "E:\\VS2022\\SqlSugarAPI\\SqlSugarAPI\\MyBlog.Model\\MyBlog.Model.csproj"
               },
-              "D:\\VS2019\\SqlSugatApi\\SqlSugar\\Myblog.Repository\\Myblog.Repository.csproj": {
-                "projectPath": "D:\\VS2019\\SqlSugatApi\\SqlSugar\\Myblog.Repository\\Myblog.Repository.csproj"
+              "E:\\VS2022\\SqlSugarAPI\\SqlSugarAPI\\Myblog.Repository\\Myblog.Repository.csproj": {
+                "projectPath": "E:\\VS2022\\SqlSugarAPI\\SqlSugarAPI\\Myblog.Repository\\Myblog.Repository.csproj"
               },
-              "D:\\VS2019\\SqlSugatApi\\SqlSugar\\MyBolg.Service\\MyBolg.Service.csproj": {
-                "projectPath": "D:\\VS2019\\SqlSugatApi\\SqlSugar\\MyBolg.Service\\MyBolg.Service.csproj"
+              "E:\\VS2022\\SqlSugarAPI\\SqlSugarAPI\\MyBolg.Service\\MyBolg.Service.csproj": {
+                "projectPath": "E:\\VS2022\\SqlSugarAPI\\SqlSugarAPI\\MyBolg.Service\\MyBolg.Service.csproj"
               }
             }
           }
@@ -219,24 +219,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\VS2019\\SqlSugatApi\\SqlSugar\\MyBlog.Model\\MyBlog.Model.csproj": {
+    "E:\\VS2022\\SqlSugarAPI\\SqlSugarAPI\\MyBlog.Model\\MyBlog.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\VS2019\\SqlSugatApi\\SqlSugar\\MyBlog.Model\\MyBlog.Model.csproj",
+        "projectUniqueName": "E:\\VS2022\\SqlSugarAPI\\SqlSugarAPI\\MyBlog.Model\\MyBlog.Model.csproj",
         "projectName": "MyBlog.Model",
-        "projectPath": "D:\\VS2019\\SqlSugatApi\\SqlSugar\\MyBlog.Model\\MyBlog.Model.csproj",
-        "packagesPath": "C:\\Users\\m\\.nuget\\packages\\",
-        "outputPath": "D:\\VS2019\\SqlSugatApi\\SqlSugar\\MyBlog.Model\\obj\\",
+        "projectPath": "E:\\VS2022\\SqlSugarAPI\\SqlSugarAPI\\MyBlog.Model\\MyBlog.Model.csproj",
+        "packagesPath": "C:\\Users\\马连军\\.nuget\\packages\\",
+        "outputPath": "E:\\VS2022\\SqlSugarAPI\\SqlSugarAPI\\MyBlog.Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\m\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\马连军\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -283,24 +283,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\VS2019\\SqlSugatApi\\SqlSugar\\Myblog.Repository\\Myblog.Repository.csproj": {
+    "E:\\VS2022\\SqlSugarAPI\\SqlSugarAPI\\Myblog.Repository\\Myblog.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\VS2019\\SqlSugatApi\\SqlSugar\\Myblog.Repository\\Myblog.Repository.csproj",
+        "projectUniqueName": "E:\\VS2022\\SqlSugarAPI\\SqlSugarAPI\\Myblog.Repository\\Myblog.Repository.csproj",
         "projectName": "Myblog.Repository",
-        "projectPath": "D:\\VS2019\\SqlSugatApi\\SqlSugar\\Myblog.Repository\\Myblog.Repository.csproj",
-        "packagesPath": "C:\\Users\\m\\.nuget\\packages\\",
-        "outputPath": "D:\\VS2019\\SqlSugatApi\\SqlSugar\\Myblog.Repository\\obj\\",
+        "projectPath": "E:\\VS2022\\SqlSugarAPI\\SqlSugarAPI\\Myblog.Repository\\Myblog.Repository.csproj",
+        "packagesPath": "C:\\Users\\马连军\\.nuget\\packages\\",
+        "outputPath": "E:\\VS2022\\SqlSugarAPI\\SqlSugarAPI\\Myblog.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\m\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\马连军\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -315,8 +315,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\VS2019\\SqlSugatApi\\SqlSugar\\Myblog.IRepository\\MyBlog.IRepository.csproj": {
-                "projectPath": "D:\\VS2019\\SqlSugatApi\\SqlSugar\\Myblog.IRepository\\MyBlog.IRepository.csproj"
+              "E:\\VS2022\\SqlSugarAPI\\SqlSugarAPI\\Myblog.IRepository\\MyBlog.IRepository.csproj": {
+                "projectPath": "E:\\VS2022\\SqlSugarAPI\\SqlSugarAPI\\Myblog.IRepository\\MyBlog.IRepository.csproj"
               }
             }
           }
@@ -351,24 +351,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\VS2019\\SqlSugatApi\\SqlSugar\\MyBolg.Service\\MyBolg.Service.csproj": {
+    "E:\\VS2022\\SqlSugarAPI\\SqlSugarAPI\\MyBolg.Service\\MyBolg.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\VS2019\\SqlSugatApi\\SqlSugar\\MyBolg.Service\\MyBolg.Service.csproj",
+        "projectUniqueName": "E:\\VS2022\\SqlSugarAPI\\SqlSugarAPI\\MyBolg.Service\\MyBolg.Service.csproj",
         "projectName": "MyBolg.Service",
-        "projectPath": "D:\\VS2019\\SqlSugatApi\\SqlSugar\\MyBolg.Service\\MyBolg.Service.csproj",
-        "packagesPath": "C:\\Users\\m\\.nuget\\packages\\",
-        "outputPath": "D:\\VS2019\\SqlSugatApi\\SqlSugar\\MyBolg.Service\\obj\\",
+        "projectPath": "E:\\VS2022\\SqlSugarAPI\\SqlSugarAPI\\MyBolg.Service\\MyBolg.Service.csproj",
+        "packagesPath": "C:\\Users\\马连军\\.nuget\\packages\\",
+        "outputPath": "E:\\VS2022\\SqlSugarAPI\\SqlSugarAPI\\MyBolg.Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\m\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\马连军\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -383,11 +383,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\VS2019\\SqlSugatApi\\SqlSugar\\Myblog.IRepository\\MyBlog.IRepository.csproj": {
-                "projectPath": "D:\\VS2019\\SqlSugatApi\\SqlSugar\\Myblog.IRepository\\MyBlog.IRepository.csproj"
+              "E:\\VS2022\\SqlSugarAPI\\SqlSugarAPI\\Myblog.IRepository\\MyBlog.IRepository.csproj": {
+                "projectPath": "E:\\VS2022\\SqlSugarAPI\\SqlSugarAPI\\Myblog.IRepository\\MyBlog.IRepository.csproj"
               },
-              "D:\\VS2019\\SqlSugatApi\\SqlSugar\\MyBlog.IService\\MyBlog.IService.csproj": {
-                "projectPath": "D:\\VS2019\\SqlSugatApi\\SqlSugar\\MyBlog.IService\\MyBlog.IService.csproj"
+              "E:\\VS2022\\SqlSugarAPI\\SqlSugarAPI\\MyBlog.IService\\MyBlog.IService.csproj": {
+                "projectPath": "E:\\VS2022\\SqlSugarAPI\\SqlSugarAPI\\MyBlog.IService\\MyBlog.IService.csproj"
               }
             }
           }
@@ -416,7 +416,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

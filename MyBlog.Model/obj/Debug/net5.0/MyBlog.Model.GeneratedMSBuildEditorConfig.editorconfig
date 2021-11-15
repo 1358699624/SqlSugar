@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = MyBlog.Model
-build_property.ProjectDir = D:\VS2019\SqlSugatApi\SqlSugar\MyBlog.Model\
+build_property.ProjectDir = E:\VS2022\SqlSugarAPI\SqlSugarAPI\MyBlog.Model\

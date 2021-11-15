@@ -206,3 +206,12 @@ D:\VS2019\SqlSugatApi\SqlSugar\SqlSugar\bin\Debug\net5.0\Microsoft.Extensions.Lo
 D:\VS2019\SqlSugatApi\SqlSugar\SqlSugar\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
 D:\VS2019\SqlSugatApi\SqlSugar\SqlSugar\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
 D:\VS2019\SqlSugatApi\SqlSugar\SqlSugar\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+E:\VS2022\SqlSugarAPI\SqlSugarAPI\SqlSugar\bin\Debug\net5.0\System.Net.Http.Formatting.dll
+E:\VS2022\SqlSugarAPI\SqlSugarAPI\SqlSugar\bin\Debug\net5.0\Microsoft.Extensions.Caching.Abstractions.dll
+E:\VS2022\SqlSugarAPI\SqlSugarAPI\SqlSugar\bin\Debug\net5.0\Microsoft.Extensions.Caching.Memory.dll
+E:\VS2022\SqlSugarAPI\SqlSugarAPI\SqlSugar\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\VS2022\SqlSugarAPI\SqlSugarAPI\SqlSugar\bin\Debug\net5.0\Microsoft.Extensions.Logging.Abstractions.dll
+E:\VS2022\SqlSugarAPI\SqlSugarAPI\SqlSugar\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+E:\VS2022\SqlSugarAPI\SqlSugarAPI\SqlSugar\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+E:\VS2022\SqlSugarAPI\SqlSugarAPI\SqlSugar\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+E:\VS2022\SqlSugarAPI\SqlSugarAPI\SqlSugar\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll

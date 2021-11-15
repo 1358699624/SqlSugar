@@ -36,3 +36,4 @@ D:\VS2019\SqlSugatApi\SqlSugar\Myblog.Repository\obj\Debug\net5.0\Myblog.Reposit
 D:\VS2019\SqlSugatApi\SqlSugar\Myblog.Repository\obj\Debug\net5.0\Myblog.Repository.dll
 D:\VS2019\SqlSugatApi\SqlSugar\Myblog.Repository\obj\Debug\net5.0\ref\Myblog.Repository.dll
 D:\VS2019\SqlSugatApi\SqlSugar\Myblog.Repository\obj\Debug\net5.0\Myblog.Repository.pdb
+E:\VS2022\SqlSugarAPI\SqlSugarAPI\Myblog.Repository\obj\Debug\net5.0\Myblog.Repository.csproj.CopyComplete
