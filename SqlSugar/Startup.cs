@@ -75,6 +75,7 @@ namespace SqlSugar
         });
                 #endregion
             });
+            services.AddHttpClient();
 
             #region SqlSugar
 

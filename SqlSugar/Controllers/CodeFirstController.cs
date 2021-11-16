@@ -34,6 +34,7 @@ namespace MySqlSugar.Controllers
         /// </summary>
         /// <param name="name"></param>
         /// <returns></returns>
+        [AllowAnonymous]
         [HttpGet("GetQuery")]
         public async Task<ActionResult<ApiResult>> GetQuery(string name)
         {

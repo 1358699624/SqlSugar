@@ -112,29 +112,29 @@ namespace MySqlSugar.Utility
 
             #region POST
 
-            public static string HttpPostRequestAsync(string Url, List<KeyValuePair<string, string>> paramArray, string ContentType = "application/json")
+            public static async Task<string> HttpPostRequestAsync(string Url, List<KeyValuePair<string, string>> paramArray, string ContentType = "application/json")
             {
-                return HttpPostRequestAsync(Url, paramArray, null, ContentType);
+                return await HttpPostRequestAsync(Url, paramArray, null, ContentType);
             }
 
-            public static string HttpPostRequestAsync(string Url, object objBody, string ContentType = "application/json")
+            public static async Task<string> HttpPostRequestAsync(string Url, object objBody, string ContentType = "application/json")
             {
-                return HttpPostRequestAsync(Url, null, objBody, ContentType);
+                return await HttpPostRequestAsync(Url, null, objBody, ContentType);
             }
 
-            public static string HttpPostRequestAsync(string Url, List<KeyValuePair<string, string>> paramArray, object objBody, string ContentType = "application/x-www-form-urlencoded")
+            public static async Task<string> HttpPostRequestAsync(string Url, List<KeyValuePair<string, string>> paramArray, object objBody, string ContentType = "application/x-www-form-urlencoded")
             {
                 string result = "";
 
                 var postData = BuildParam(paramArray);
-                string strBody = string.Empty;
+            string strBody = Newtonsoft.Json.JsonConvert.SerializeObject(objBody);
 
                 if (paramArray != null)
                     Url = string.Concat(new string[] { Url, "?", postData });
 
-                if (objBody != null)
-                   
-                    strBody = objBody as string;
+                //if (objBody != null)
+
+                //strBody = JsonHelper.ObjectToJson(objBody);
 
             try
                 {
@@ -147,8 +147,8 @@ namespace MySqlSugar.Utility
                         {
                             http.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue(ContentType));
 
-                            var task = http.PostAsync(Url, content);
-                            message = task.Result;
+                            var task = await http.PostAsync(Url, content);
+                            message = task;
                         }
 
                         if (message != null && message.StatusCode == System.Net.HttpStatusCode.OK)

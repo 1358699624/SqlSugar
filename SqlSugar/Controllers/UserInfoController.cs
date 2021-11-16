@@ -10,6 +10,8 @@ using System.Threading.Tasks;
 using MyBlog.Model;
 using MySqlSugar.Utility.ApiResult;
 using Microsoft.AspNetCore.Authorization;
+using System.Text.Json;
+using System.Text.Json.Serialization;
 
 namespace SqlSugar.Controllers
 {
@@ -55,7 +57,7 @@ namespace SqlSugar.Controllers
                 return ApiResultHelper.Error(ex.Message);
             }
         }
-
+        [AllowAnonymous]
         [HttpPost("Create")]
         public async Task<ActionResult<ApiResult>> Create(string title,string  content)
         {
@@ -81,6 +83,42 @@ namespace SqlSugar.Controllers
 
             }
         
+        }
+
+        /// <summary>
+        /// 接受Json格式数据，并保存数据库，外部调用API
+        /// </summary>
+        /// <param name="message"></param>
+        /// <returns></returns>
+        [AllowAnonymous]
+        [HttpPost("CreateJson")]
+        public async Task<ActionResult<ApiResult>> CreateJson(string message)
+        {
+            try
+            {
+                //将message转换为实体类格式
+
+                UserInfo list = JsonSerializer.Deserialize<UserInfo>(message);
+
+                UserInfo userInfo = new UserInfo
+                {
+                    UserName = list.UserName,
+                    Phone = "1123321",
+                    Sex = "女",
+                    Hobby = list.Hobby,
+                    Description = "tdk"
+                };
+
+                var b = await _userInfoContext.CreateAsync(userInfo);
+                if (!b) return ApiResultHelper.Error("创建错误");
+                return ApiResultHelper.Success("创建成功");
+            }
+            catch (Exception ex)
+            {
+                return ApiResultHelper.Error(ex.Message);
+
+            }
+
         }
 
 
