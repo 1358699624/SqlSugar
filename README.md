@@ -193,3 +193,7 @@ UserName
 
 2021年11月14日
 使用Mamory 缓存,Text控制器中有特性, 新增 Filter特性类Attrebute,Startup 新增service服务
+
+
+2021年11月16日
+控制器调用API，GET请求，Post请求，没有问题，JWTController 、UserController
