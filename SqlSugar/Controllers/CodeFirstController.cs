@@ -145,7 +145,12 @@ namespace MySqlSugar.Controllers
         }
 
 
-
+        /// <summary>
+        /// DTO返回数据不带密码
+        /// </summary>
+        /// <param name="mapper">FromServices IMapper</param>
+        /// <param name="id">int</param>
+        /// <returns></returns>
         [AllowAnonymous]//匿名访问，不使用DTO
         [HttpGet("GetFirsAsync")]
         public async Task<ApiResult> GetFirsAsync([FromServices]IMapper mapper,int  id)//int id

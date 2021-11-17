@@ -12,6 +12,7 @@ using MySqlSugar.Utility.ApiResult;
 using Microsoft.AspNetCore.Authorization;
 using System.Text.Json;
 using System.Text.Json.Serialization;
+using Newtonsoft.Json.Linq;
 
 namespace SqlSugar.Controllers
 {
@@ -57,6 +58,12 @@ namespace SqlSugar.Controllers
                 return ApiResultHelper.Error(ex.Message);
             }
         }
+        /// <summary>
+        /// 创建用户信息()
+        /// </summary>
+        /// <param name="title">用户名</param>
+        /// <param name="content">爱好</param>
+        /// <returns></returns>
         [AllowAnonymous]
         [HttpPost("Create")]
         public async Task<ActionResult<ApiResult>> Create(string title,string  content)
@@ -96,14 +103,15 @@ namespace SqlSugar.Controllers
         {
             try
             {
+                //
+                var list2 = JObject.Parse(message);
+
                 //将message转换为实体类格式
-
-                UserInfo list = JsonSerializer.Deserialize<UserInfo>(message);
-
+                UserInfo list = System.Text.Json.JsonSerializer.Deserialize<UserInfo>(message);
                 UserInfo userInfo = new UserInfo
                 {
                     UserName = list.UserName,
-                    Phone = "1123321",
+                    Phone = "1358699624",//list2["Phone"].ToString()
                     Sex = "女",
                     Hobby = list.Hobby,
                     Description = "tdk"
@@ -121,7 +129,14 @@ namespace SqlSugar.Controllers
 
         }
 
-
+        /// <summary>
+        /// 修改数据
+        /// </summary>
+        /// <param name="id">id，后期传姓名即可修改信息</param>
+        /// <param name="phone"></param>
+        /// <param name="sex"></param>
+        /// <param name="description"></param>
+        /// <returns></returns>
         [HttpPut("Editor")]
         public async Task<ActionResult<ApiResult>> Editor(int id,string phone,string  sex,string description)
         {
@@ -146,7 +161,11 @@ namespace SqlSugar.Controllers
             }
 
         }
-
+        /// <summary>
+        /// 删除数据
+        /// </summary>
+        /// <param name="id">id，后期传姓名即可修改删除</param>
+        /// <returns></returns>
         [HttpDelete("Delete")]
         public async Task<ActionResult<ApiResult>> Delete(int id)
         {
@@ -167,7 +186,12 @@ namespace SqlSugar.Controllers
             }
 
         }
-
+        /// <summary>
+        /// 分页查询数据
+        /// </summary>
+        /// <param name="page">当前页</param>
+        /// <param name="size">页大小</param>
+        /// <returns></returns>
         [HttpGet("Page")]
         public async Task<ActionResult<ApiResult>> GetPage(int page, int  size) 
         {
@@ -187,7 +211,12 @@ namespace SqlSugar.Controllers
             }
         }
 
-
+        /// <summary>
+        /// 查询数据
+        /// </summary>
+        /// <param name="username">名称</param>
+        /// <param name="phone">电话</param>
+        /// <returns></returns>
         [HttpGet("QueryAsync")]
         public async Task<ActionResult<ApiResult>> QueryAsyncResult(string username,string phone) 
         {

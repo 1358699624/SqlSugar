@@ -215,3 +215,4 @@ E:\VS2022\SqlSugarAPI\SqlSugarAPI\SqlSugar\bin\Debug\net5.0\Microsoft.Extensions
 E:\VS2022\SqlSugarAPI\SqlSugarAPI\SqlSugar\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
 E:\VS2022\SqlSugarAPI\SqlSugarAPI\SqlSugar\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
 E:\VS2022\SqlSugarAPI\SqlSugarAPI\SqlSugar\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+E:\VS2022\SqlSugarAPI\SqlSugarAPI\SqlSugar\bin\Debug\net5.0\MySqlSugar.xml

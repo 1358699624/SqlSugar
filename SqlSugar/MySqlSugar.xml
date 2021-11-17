@@ -1,0 +1,125 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MySqlSugar</name>
+    </assembly>
+    <members>
+        <member name="M:MySqlSugar.Controllers.CodeFirstController.GetQuery(System.String)">
+            <summary>
+            查询账号
+            </summary>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MySqlSugar.Controllers.CodeFirstController.GetCreate(System.String,System.String)">
+            <summary>
+            创建账号
+            </summary>
+            <param name="name"></param>
+            <param name="text"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MySqlSugar.Controllers.CodeFirstController.Editor(System.String,System.String)">
+            <summary>
+            修改密码
+            </summary>
+            <param name="text">密码</param>
+            <returns></returns>
+        </member>
+        <member name="M:MySqlSugar.Controllers.CodeFirstController.Delete(System.String)">
+            <summary>
+            删除账号
+            </summary>
+            <param name="name"></param>
+            <returns></returns> 
+        </member>
+        <member name="M:MySqlSugar.Controllers.JWTTestController.GetApiAsync3(System.String,System.String)">
+            <summary>
+            application/json
+            </summary>
+            <param name="path"></param>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MySqlSugar.Controllers.JWTTestController.PostApiAsync(System.String,System.String)">
+            <summary>
+            application/json
+            </summary>
+            <param name="path"></param>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MySqlSugar.Utility.HttpClientHelper.GetResponseByGet(System.String)">
+            <summary>
+            get请求，可以对请求头进行多项设置
+            </summary>
+            <param name="url"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MySqlSugar.Utility.HttpClientHelper.GetResponseByGet(System.String,System.Collections.Generic.List{System.Collections.Generic.KeyValuePair{System.String,System.String}})">
+            <summary>
+            get请求，可以对请求头进行多项设置
+            </summary>
+            <param name="url"></param>
+            <param name="paramArray"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SqlSugar.Controllers.UserInfoController.GetUserInfo">
+            <summary>
+            tdk
+            </summary>
+            <param name="page"></param>
+            <param name="limit"></param>
+            <param name="userName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SqlSugar.Controllers.UserInfoController.Create(System.String,System.String)">
+            <summary>
+            创建用户信息()
+            </summary>
+            <param name="title">用户名</param>
+            <param name="content">爱好</param>
+            <returns></returns>
+        </member>
+        <member name="M:SqlSugar.Controllers.UserInfoController.CreateJson(System.String)">
+            <summary>
+            接受Json格式数据，并保存数据库，外部调用API
+            </summary>
+            <param name="message"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SqlSugar.Controllers.UserInfoController.Editor(System.Int32,System.String,System.String,System.String)">
+            <summary>
+            修改数据
+            </summary>
+            <param name="id">id，后期传姓名即可修改信息</param>
+            <param name="phone"></param>
+            <param name="sex"></param>
+            <param name="description"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SqlSugar.Controllers.UserInfoController.Delete(System.Int32)">
+            <summary>
+            删除数据
+            </summary>
+            <param name="id">id，后期传姓名即可修改删除</param>
+            <returns></returns>
+        </member>
+        <member name="M:SqlSugar.Controllers.UserInfoController.GetPage(System.Int32,System.Int32)">
+            <summary>
+            分页查询数据
+            </summary>
+            <param name="page">当前页</param>
+            <param name="size">页大小</param>
+            <returns></returns>
+        </member>
+        <member name="M:SqlSugar.Controllers.UserInfoController.QueryAsyncResult(System.String,System.String)">
+            <summary>
+            查询数据
+            </summary>
+            <param name="username">名称</param>
+            <param name="phone">电话</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
