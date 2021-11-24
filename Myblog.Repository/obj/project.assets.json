@@ -723,7 +723,7 @@
           "lib/netstandard2.1/SqlSugar.IOC.dll": {}
         }
       },
-      "SqlSugarCore/5.0.4.5": {
+      "SqlSugarCore/5.0.4.6": {
         "type": "package",
         "dependencies": {
           "Microsoft.Data.SqlClient": "2.1.1",
@@ -2308,7 +2308,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
-          "SqlSugarCore": "5.0.4.5"
+          "SqlSugarCore": "5.0.4.6"
         },
         "compile": {
           "bin/placeholder/MyBlog.Model.dll": {}
@@ -3387,15 +3387,15 @@
         "sqlsugar.ioc.nuspec"
       ]
     },
-    "SqlSugarCore/5.0.4.5": {
-      "sha512": "PVjSEGHkFNpB/hn4DpbckoiV5L0rpOXUBOhdFjwwamvXCqkIIIETuI1lXrC5AN2gzUhmiTiZ6YJT1q4dYhCh6Q==",
+    "SqlSugarCore/5.0.4.6": {
+      "sha512": "79WQwtu2NyM3RUyj0pusQ6WvjHmbbeth75foosxGPrBctc/bve3ucRmzPqU0DSwZbhoOaFF0phtXylidy0y18w==",
       "type": "package",
-      "path": "sqlsugarcore/5.0.4.5",
+      "path": "sqlsugarcore/5.0.4.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.1/SqlSugar.dll",
-        "sqlsugarcore.5.0.4.5.nupkg.sha512",
+        "sqlsugarcore.5.0.4.6.nupkg.sha512",
         "sqlsugarcore.nuspec"
       ]
     },

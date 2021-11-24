@@ -57,6 +57,12 @@ namespace Myblog.Repository
             return v;
         }
 
+
+        public int BulkUpdate(List<Soft> list) 
+        {
+            //插入 100万 10秒不到 
+            return base.Context.Fastest<Soft>().BulkCopy(list);//性能;
+        }
     }
 }
 

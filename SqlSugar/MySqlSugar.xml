@@ -86,6 +86,13 @@
             <param name="dr">数据行</param>
             <returns>实体类</returns>
         </member>
+        <member name="M:MySqlSugar.Controllers.SoftController.BulkUpdate(System.String)">
+            <summary>
+            插入百万级数据
+            </summary>
+            <param name="softname">传空即可</param>
+            <returns>List Soft实体类</returns>
+        </member>
         <member name="M:MySqlSugar.Controllers.UserAndNewsController.#ctor(MyBlog.IService.IUserToNewsService)">
             <summary>
             构造函数 依赖注入

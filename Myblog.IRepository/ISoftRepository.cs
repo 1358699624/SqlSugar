@@ -16,5 +16,12 @@ namespace MyBlog.IRepository
         /// </summary>
         /// <returns></returns>
         Task<DataTable> GetSoftAsync(string  sql,string dic);
+
+
+        /// <summary>
+        /// 插入百万级数据
+        /// </summary>
+        /// <returns></returns>
+        int BulkUpdate(List<Soft> list);
     }
 }

@@ -101,5 +101,47 @@ namespace MySqlSugar.Controllers
             }
             return obj;
         }
+
+
+        /// <summary>
+        /// 插入百万级数据
+        /// </summary>
+        /// <param name="softname">传空即可</param>
+        /// <returns>List Soft实体类</returns>
+        [HttpGet("BulkUpdate")]
+        [AllowAnonymous]
+        public async Task<ApiResult> BulkUpdate(string softname)
+        {
+            try
+            {
+                Soft soft = new Soft();
+
+                List<Soft> softs = new List<Soft>();
+                for (int i = 0; i <100000; i++)
+                {
+                    
+                    soft.USCC = i.ToString();
+                    soft.SoftName = i.ToString();
+
+                    softs.Add(soft);
+                }
+                DateTime datetime = DateTime.Now;
+
+                int v =  _isoftService.BulkUpdate(softs);
+
+                DateTime time = DateTime.Now;
+
+
+                TimeSpan ts = time.Subtract(datetime);
+                return ApiResultHelper.Success($"DateTime总共花费{ts.TotalMilliseconds}ms.");
+            }
+            catch (Exception ex)
+            {
+                return ApiResultHelper.Error(ex.Message);
+            }
+        }
+
+
+
     }
 }
