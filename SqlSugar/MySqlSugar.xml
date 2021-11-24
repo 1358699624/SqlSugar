@@ -33,6 +33,14 @@
             <param name="name"></param>
             <returns></returns> 
         </member>
+        <member name="M:MySqlSugar.Controllers.CodeFirstController.GetFirsAsync(AutoMapper.IMapper,System.Int32)">
+            <summary>
+            DTO返回数据不带密码
+            </summary>
+            <param name="mapper">FromServices IMapper</param>
+            <param name="id">int</param>
+            <returns></returns>
+        </member>
         <member name="M:MySqlSugar.Controllers.JWTTestController.GetApiAsync3(System.String,System.String)">
             <summary>
             application/json
@@ -47,6 +55,74 @@
             </summary>
             <param name="path"></param>
             <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MySqlSugar.Controllers.NewsController.GetUserToNews(System.Int32,System.Int32)">
+            <summary>
+            多表查询
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MySqlSugar.Controllers.SoftController.GetDataTableAnysc(System.String)">
+            <summary>
+            根据企业名称查询企业信息
+            </summary>
+            <param name="softname">企业名称</param>
+            <returns>List Soft实体类</returns>
+        </member>
+        <member name="M:MySqlSugar.Controllers.SoftController.DataTableToModel``1(System.Data.DataTable)">
+            <summary>
+            DataTable转为List泛型
+            </summary>
+            <typeparam name="T">泛型列表</typeparam>
+            <param name="dt">数据源</param>
+            <returns>model数据</returns>
+        </member>
+        <member name="M:MySqlSugar.Controllers.SoftController.DataRowToModel``1(System.Data.DataRow)">
+            <summary>
+            将DataRow转换成实体对象
+            </summary>
+            <typeparam name="T">泛型</typeparam>
+            <param name="dr">数据行</param>
+            <returns>实体类</returns>
+        </member>
+        <member name="M:MySqlSugar.Controllers.UserAndNewsController.#ctor(MyBlog.IService.IUserToNewsService)">
+            <summary>
+            构造函数 依赖注入
+            </summary>
+            <param name="userToNewsService"></param>
+        </member>
+        <member name="M:MySqlSugar.Controllers.UserAndNewsController.GetUserToNews(System.Int32,System.Int32)">
+            <summary>
+            多表查询
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:MySqlSugar.Utility.ApiResult.ApiResultHelper">
+            <summary>
+            返回类
+            </summary>
+        </member>
+        <member name="M:MySqlSugar.Utility.ApiResult.ApiResultHelper.Success(System.Object)">
+            <summary>
+            成功
+            </summary>
+            <param name="data">数据</param>
+            <returns></returns>
+        </member>
+        <member name="M:MySqlSugar.Utility.ApiResult.ApiResultHelper.Success(System.Object,SqlSugar.RefAsync{System.Int32})">
+            <summary>
+            成功
+            </summary>
+            <param name="data">数据</param>
+            <param name="total">数据总量</param>
+            <returns></returns>
+        </member>
+        <member name="M:MySqlSugar.Utility.ApiResult.ApiResultHelper.Error(System.String)">
+            <summary>
+            错误
+            </summary>
+            <param name="msg">ex</param>
             <returns></returns>
         </member>
         <member name="M:MySqlSugar.Utility.HttpClientHelper.GetResponseByGet(System.String)">

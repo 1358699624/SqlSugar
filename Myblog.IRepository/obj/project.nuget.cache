@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "KHFd9WmOEpkCTay1XkdVE2VVaE/bJMvCHIVCL8f/aUw96svEUIfrrht7DJBXup8YrXE6kbJjeE+cDkAuAh/uwg==",
+  "dgSpecHash": "j1cCLpL+mmr9K+k8Ti4kVgSWKrC3ADPfaltFHxhhpr/rZf76BJZwvLcnSthuSmIZdY12TtJtfFDDcj9YEFDkHQ==",
   "success": true,
   "projectFilePath": "E:\\VS2022\\SqlSugarAPI\\SqlSugarAPI\\Myblog.IRepository\\MyBlog.IRepository.csproj",
   "expectedPackageFiles": [
@@ -52,7 +52,7 @@
     "C:\\Users\\马连军\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3.osx\\1.1.12\\sqlitepclraw.lib.e_sqlite3.osx.1.1.12.nupkg.sha512",
     "C:\\Users\\马连军\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3.v110_xp\\1.1.12\\sqlitepclraw.lib.e_sqlite3.v110_xp.1.1.12.nupkg.sha512",
     "C:\\Users\\马连军\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3.netstandard11\\1.1.12\\sqlitepclraw.provider.e_sqlite3.netstandard11.1.1.12.nupkg.sha512",
-    "C:\\Users\\马连军\\.nuget\\packages\\sqlsugarcore\\5.0.4.2\\sqlsugarcore.5.0.4.2.nupkg.sha512",
+    "C:\\Users\\马连军\\.nuget\\packages\\sqlsugarcore\\5.0.4.5\\sqlsugarcore.5.0.4.5.nupkg.sha512",
     "C:\\Users\\马连军\\.nuget\\packages\\sqlsugarcore.dm\\1.0.0\\sqlsugarcore.dm.1.0.0.nupkg.sha512",
     "C:\\Users\\马连军\\.nuget\\packages\\sqlsugarcore.kdbndp\\1.0.0\\sqlsugarcore.kdbndp.1.0.0.nupkg.sha512",
     "C:\\Users\\马连军\\.nuget\\packages\\ssh.net\\2016.1.0\\ssh.net.2016.1.0.nupkg.sha512",

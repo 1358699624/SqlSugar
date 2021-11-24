@@ -1,4 +1,4 @@
-using Microsoft.AspNetCore.Authentication.JwtBearer;
+Ôªøusing Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -50,20 +50,20 @@ namespace SqlSugar
                 c.ResolveConflictingActions(apiDescriptions => apiDescriptions.First());
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Myblog.WebApi", Version = "v1" });
 
-                // ªÒ»°xmlŒƒº˛√˚
+                // Ëé∑ÂèñxmlÊñá‰ª∂Âêç
                 var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
-                // ªÒ»°xmlŒƒº˛¬∑æ∂
+                // Ëé∑ÂèñxmlÊñá‰ª∂Ë∑ØÂæÑ
                 var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
-                // ÃÌº”øÿ÷∆∆˜≤„◊¢ Õ£¨true±Ì æœ‘ æøÿ÷∆∆˜◊¢ Õ
+                // Ê∑ªÂä†ÊéßÂà∂Âô®Â±ÇÊ≥®ÈáäÔºåtrueË°®Á§∫ÊòæÁ§∫ÊéßÂà∂Âô®Ê≥®Èáä
                 c.IncludeXmlComments(xmlPath, true);
 
 
-                #region Swagger π”√º¯»®◊Èº˛
+                #region Swagger‰ΩøÁî®Èâ¥ÊùÉÁªÑ‰ª∂
                 c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
                 {
                     In = ParameterLocation.Header,
                     Type = SecuritySchemeType.ApiKey,
-                    Description = "÷±Ω”‘⁄œ¬øÚ÷– ‰»ÎBearer {token}£®◊¢“‚¡Ω’ﬂ÷Æº‰ «“ª∏ˆø’∏Ò£©",
+                    Description = "Áõ¥Êé•Âú®‰∏ãÊ°Ü‰∏≠ËæìÂÖ•Bearer {token}ÔºàÊ≥®ÊÑè‰∏§ËÄÖ‰πãÈó¥ÊòØ‰∏Ä‰∏™Á©∫Ê†ºÔºâ",
                     Name = "Authorization",
                     BearerFormat = "JWT",
                     Scheme = "Bearer"
@@ -86,43 +86,60 @@ namespace SqlSugar
             });
             services.AddHttpClient();
 
+            #region Ë∑®Âüü
+
+            // ÈÖçÁΩÆË∑®ÂüüÂ§ÑÁêÜÔºåÂÖÅËÆ∏ÊâÄÊúâÊù•Ê∫ê
+
+            services.AddCors(options => {
+
+¬† ¬† ¬† ¬† ¬† ¬† ¬† ¬† // this defines a CORS policy called "default"
+
+¬† ¬† ¬† ¬† ¬† ¬† ¬† ¬† options.AddPolicy("default", policy => {
+
+                    policy.WithOrigins("*").AllowAnyHeader().AllowAnyMethod();
+
+                });
+
+            });
+            #endregion
+
             #region SqlSugar
 
-            
+
             services.AddSqlSugar(new IocConfig()
             {
-                //ConfigId="db01"  ∂‡◊‚ªß”√µΩ
+                //ConfigId="db01"  Â§öÁßüÊà∑Áî®Âà∞
                 ConnectionString = AppConfig.Appsetting,
                 DbType = IocDbType.SqlServer,
-                IsAutoCloseConnection = true//◊‘∂Ø Õ∑≈
+                IsAutoCloseConnection = true//Ëá™Âä®ÈáäÊîæ
             });
             #endregion
             services.AddCustomIOC();
 
 
-            //º¯»®
+            //Èâ¥ÊùÉ
             services.AddCustomJWT();
 
-            // π”√AutoMapper   DTO
+            //‰ΩøÁî®AutoMapper   DTO
             services.AddAutoMapper(typeof(CodeFirstMapper));
 
 
-            // π”√ª∫¥Ê
+            //‰ΩøÁî®ÁºìÂ≠ò
             services.AddMemoryCache();
 
-            #region MyRegion◊¢ Õ
+            #region MyRegionÊ≥®Èáä
 
             /* 
-            //Œﬁ∑® π”√
+            //Êó†Ê≥ï‰ΩøÁî®
             SqlSugarClient db = new SqlSugarClient(new ConnectionConfig()
             {
                 ConnectionString = AppConfig.Appsetting,
                 DbType = DbType.SqlServer,
-                IsAutoCloseConnection = true//◊‘∂Ø Õ∑≈
+                IsAutoCloseConnection = true//Ëá™Âä®ÈáäÊîæ
             });*/
 
             /*
-            //øÿ÷∆∆˜∑µªÿjson÷–Œƒ≤ª¬“¬Î
+            //ÊéßÂà∂Âô®ËøîÂõûjson‰∏≠Êñá‰∏ç‰π±Á†Å
             services.AddControllers().AddJsonOptions(options =>
             {
                 options.JsonSerializerOptions.Encoder = JavaScriptEncoder.Create(UnicodeRanges.All);
@@ -142,12 +159,12 @@ namespace SqlSugar
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "SwaggerAPI v1"));
 
             }
-            
-           
+
+            app.UseCors("default");
             app.UseRouting();
-            //ÃÌº”µΩπ‹µ¿÷–   JWT º¯»®
+            //Ê∑ªÂä†Âà∞ÁÆ°ÈÅì‰∏≠   JWT Èâ¥ÊùÉ
             app.UseAuthentication();
-            // ⁄»®
+            //ÊéàÊùÉ
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
@@ -168,10 +185,20 @@ namespace SqlSugar
             services.AddScoped<ICodeFirstService, CodeFirstService>();
 
             services.AddScoped<IUserInfoRepository, UserInfoRepository>();
+            
             services.AddScoped<IUserInfoService, UserInfoService>();
+
+
+            services.AddScoped<IUserToNewsRepository, UserToNewsRepository>();
+            services.AddScoped<IUserToNewsService, UserToNewsService>();
+
+
+            services.AddScoped<ISoftRepository, SoftRepository>();
+
+
             return services;
         }
-        #region  º¯»®
+        #region  Èâ¥ÊùÉ
 
         
         public static IServiceCollection AddCustomJWT(this IServiceCollection services)

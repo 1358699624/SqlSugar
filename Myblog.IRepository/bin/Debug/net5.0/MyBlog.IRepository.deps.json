@@ -521,7 +521,7 @@
           }
         }
       },
-      "SqlSugarCore/5.0.4.2": {
+      "SqlSugarCore/5.0.4.5": {
         "dependencies": {
           "Microsoft.Data.SqlClient": "2.1.1",
           "Microsoft.Data.Sqlite": "2.2.4",
@@ -536,8 +536,8 @@
         },
         "runtime": {
           "lib/netstandard2.1/SqlSugar.dll": {
-            "assemblyVersion": "5.0.4.1",
-            "fileVersion": "5.0.4.1"
+            "assemblyVersion": "5.0.4.5",
+            "fileVersion": "5.0.4.5"
           }
         }
       },
@@ -1504,7 +1504,7 @@
       },
       "MyBlog.Model/1.0.0": {
         "dependencies": {
-          "SqlSugarCore": "5.0.4.2"
+          "SqlSugarCore": "5.0.4.5"
         },
         "runtime": {
           "MyBlog.Model.dll": {}
@@ -1854,12 +1854,12 @@
       "path": "sqlitepclraw.provider.e_sqlite3.netstandard11/1.1.12",
       "hashPath": "sqlitepclraw.provider.e_sqlite3.netstandard11.1.1.12.nupkg.sha512"
     },
-    "SqlSugarCore/5.0.4.2": {
+    "SqlSugarCore/5.0.4.5": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-RaZ4kQ2qLwl0qVwTUQgiBJNdZSILTlj0ovC+BYa+z8KP39Gi9AsBwZiq8kyAN9veg/WkcDWdoYZkh+I3VJO99w==",
-      "path": "sqlsugarcore/5.0.4.2",
-      "hashPath": "sqlsugarcore.5.0.4.2.nupkg.sha512"
+      "sha512": "sha512-PVjSEGHkFNpB/hn4DpbckoiV5L0rpOXUBOhdFjwwamvXCqkIIIETuI1lXrC5AN2gzUhmiTiZ6YJT1q4dYhCh6Q==",
+      "path": "sqlsugarcore/5.0.4.5",
+      "hashPath": "sqlsugarcore.5.0.4.5.nupkg.sha512"
     },
     "SqlSugarCore.Dm/1.0.0": {
       "type": "package",

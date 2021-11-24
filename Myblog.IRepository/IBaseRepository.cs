@@ -76,5 +76,6 @@ namespace MyBlog.IRepostitory
         /// <param name="func"></param>
         /// <returns></returns>
         Task<List<T>> QueryAsync(Expression<Func<T, bool>> func, int page, int size, RefAsync<int> total);
+
     }
 }

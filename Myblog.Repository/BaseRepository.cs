@@ -99,6 +99,5 @@ namespace MyBlog.Repository
         {
             return await base.GetSingleAsync(func);
         }
-
     }
 }

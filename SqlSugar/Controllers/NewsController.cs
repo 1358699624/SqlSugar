@@ -17,9 +17,12 @@ namespace MySqlSugar.Controllers
     public class NewsController : ControllerBase
     {
         public readonly INewsService _inewservice;
-        public NewsController(INewsService inewsService) 
+
+        public readonly IUserToNewsService _iusertonewsservice;
+        public NewsController(INewsService inewsService, IUserToNewsService iusertonewsservice) 
         {
             _inewservice = inewsService;
+            _iusertonewsservice = iusertonewsservice;
         }
 
         [AllowAnonymous]
@@ -57,6 +60,31 @@ namespace MySqlSugar.Controllers
             {
                 return ApiResultHelper.Error(ex.Message);
             }
+        }
+
+        /// <summary>
+        /// 多表查询
+        /// </summary>
+        /// <returns></returns>
+        [AllowAnonymous]
+        [HttpGet("GetUserToNews")]
+        public async Task<ApiResult> GetUserToNews(int page, int size)
+        {
+            try
+            {
+                RefAsync<int> refAsync = 0;
+                var pages = await _iusertonewsservice.QueryAsync(page, size, refAsync);
+
+                return ApiResultHelper.Success(pages, refAsync);
+            }
+            catch (Exception ex)
+            {
+                return ApiResultHelper.Error(ex.Message);
+            }
+
+
+            return  ApiResultHelper.Success("成功");
+        
         }
     }
 }

@@ -265,7 +265,7 @@
           "dependencies": {
             "SqlSugarCore": {
               "target": "Package",
-              "version": "[5.0.4.2, )"
+              "version": "[5.0.4.5, )"
             }
           },
           "imports": [

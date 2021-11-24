@@ -11,6 +11,5 @@ namespace MyBlog.IService
 {
      public  interface IUserInfoService :IBaseService<UserInfo>
     {
-        
     }
 }

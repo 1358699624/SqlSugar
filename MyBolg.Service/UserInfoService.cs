@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace Myblog.Service
 {
-    public class UserInfoService : BaseService<UserInfo>, IUserInfoService
+    public class UserInfoService : BaseService<UserInfo>,IUserInfoService
     {
         private readonly IUserInfoRepository _iUserInfoRepository;
 

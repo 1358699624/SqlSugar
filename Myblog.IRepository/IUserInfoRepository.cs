@@ -11,6 +11,6 @@ namespace MyBlog.IRepository
 {
     public interface IUserInfoRepository : IBaseRepository<UserInfo>
     {
-        //Task<List<UserInfo>> GetUserInfoLeftNews(Expression<Func<UserInfo,NewsTable,bool>> func);
+
     }
 }
