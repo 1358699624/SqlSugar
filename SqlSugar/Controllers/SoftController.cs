@@ -7,6 +7,7 @@ using MyBlog.Model;
 using MySqlSugar.Utility.ApiResult;
 using Newtonsoft.Json;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
@@ -110,21 +111,23 @@ namespace MySqlSugar.Controllers
         /// <returns>List Soft实体类</returns>
         [HttpGet("BulkUpdate")]
         [AllowAnonymous]
-        public async Task<ApiResult> BulkUpdate(string softname)
+        public async Task<ApiResult> BulkUpdate(string softname,string uscc)
         {
             try
             {
-                Soft soft = new Soft();
+                
 
                 List<Soft> softs = new List<Soft>();
-                for (int i = 0; i <100000; i++)
-                {
-                    
-                    soft.USCC = i.ToString();
-                    soft.SoftName = i.ToString();
 
-                    softs.Add(soft);
-                }
+                //for (int i = 0; i <3000000; i++)
+                //{
+                    Soft soft = new Soft{ 
+                        USCC = uscc,
+                        SoftName= softname
+                    };
+                    softs.Add(soft);//Add(soft);
+                //}
+
                 DateTime datetime = DateTime.Now;
 
                 int v =  _isoftService.BulkUpdate(softs);
@@ -142,6 +145,29 @@ namespace MySqlSugar.Controllers
         }
 
 
+        /// <summary>
+        /// 接受Json格式数据，并保存数据库
+        /// </summary>
+        /// <param name="message"></param>
+        /// <returns></returns>
+        [AllowAnonymous]
+        [HttpPost("CreateJson")]
+        public async Task<ActionResult<ApiResult>> CreateJson(string message)
+        {
+            try
+            {
+                //将message转换为实体类格式
+                Soft list = System.Text.Json.JsonSerializer.Deserialize<Soft>(message);
+                var b = await _isoftService.CreateAsync(list);
+                if (!b) return ApiResultHelper.Error("创建错误");
+                return ApiResultHelper.Success("创建成功");
+            }
+            catch (Exception ex)
+            {
+                return ApiResultHelper.Error(ex.Message);
 
+            }
+
+        }
     }
 }

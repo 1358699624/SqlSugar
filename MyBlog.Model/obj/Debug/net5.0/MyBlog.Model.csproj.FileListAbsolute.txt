@@ -14,7 +14,6 @@ E:\VS2022\SqlSugarAPI\SqlSugarAPI\MyBlog.Model\bin\Debug\net5.0\MyBlog.Model.dep
 E:\VS2022\SqlSugarAPI\SqlSugarAPI\MyBlog.Model\bin\Debug\net5.0\MyBlog.Model.dll
 E:\VS2022\SqlSugarAPI\SqlSugarAPI\MyBlog.Model\bin\Debug\net5.0\ref\MyBlog.Model.dll
 E:\VS2022\SqlSugarAPI\SqlSugarAPI\MyBlog.Model\bin\Debug\net5.0\MyBlog.Model.pdb
-E:\VS2022\SqlSugarAPI\SqlSugarAPI\MyBlog.Model\obj\Debug\net5.0\MyBlog.Model.csproj.AssemblyReference.cache
 E:\VS2022\SqlSugarAPI\SqlSugarAPI\MyBlog.Model\obj\Debug\net5.0\MyBlog.Model.GeneratedMSBuildEditorConfig.editorconfig
 E:\VS2022\SqlSugarAPI\SqlSugarAPI\MyBlog.Model\obj\Debug\net5.0\MyBlog.Model.AssemblyInfoInputs.cache
 E:\VS2022\SqlSugarAPI\SqlSugarAPI\MyBlog.Model\obj\Debug\net5.0\MyBlog.Model.AssemblyInfo.cs
@@ -22,3 +21,4 @@ E:\VS2022\SqlSugarAPI\SqlSugarAPI\MyBlog.Model\obj\Debug\net5.0\MyBlog.Model.csp
 E:\VS2022\SqlSugarAPI\SqlSugarAPI\MyBlog.Model\obj\Debug\net5.0\MyBlog.Model.dll
 E:\VS2022\SqlSugarAPI\SqlSugarAPI\MyBlog.Model\obj\Debug\net5.0\ref\MyBlog.Model.dll
 E:\VS2022\SqlSugarAPI\SqlSugarAPI\MyBlog.Model\obj\Debug\net5.0\MyBlog.Model.pdb
+E:\VS2022\SqlSugarAPI\SqlSugarAPI\MyBlog.Model\obj\Debug\net5.0\MyBlog.Model.csproj.AssemblyReference.cache

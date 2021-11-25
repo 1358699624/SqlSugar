@@ -1,0 +1,16 @@
+E:\VS2022\SqlSugarAPI\SqlSugarAPI\Myblog.Repository\bin\Release\net5.0\Myblog.Repository.deps.json
+E:\VS2022\SqlSugarAPI\SqlSugarAPI\Myblog.Repository\bin\Release\net5.0\Myblog.Repository.dll
+E:\VS2022\SqlSugarAPI\SqlSugarAPI\Myblog.Repository\bin\Release\net5.0\ref\Myblog.Repository.dll
+E:\VS2022\SqlSugarAPI\SqlSugarAPI\Myblog.Repository\bin\Release\net5.0\Myblog.Repository.pdb
+E:\VS2022\SqlSugarAPI\SqlSugarAPI\Myblog.Repository\bin\Release\net5.0\MyBlog.IRepository.dll
+E:\VS2022\SqlSugarAPI\SqlSugarAPI\Myblog.Repository\bin\Release\net5.0\MyBlog.Model.dll
+E:\VS2022\SqlSugarAPI\SqlSugarAPI\Myblog.Repository\bin\Release\net5.0\MyBlog.IRepository.pdb
+E:\VS2022\SqlSugarAPI\SqlSugarAPI\Myblog.Repository\bin\Release\net5.0\MyBlog.Model.pdb
+E:\VS2022\SqlSugarAPI\SqlSugarAPI\Myblog.Repository\obj\Release\net5.0\Myblog.Repository.csproj.AssemblyReference.cache
+E:\VS2022\SqlSugarAPI\SqlSugarAPI\Myblog.Repository\obj\Release\net5.0\Myblog.Repository.GeneratedMSBuildEditorConfig.editorconfig
+E:\VS2022\SqlSugarAPI\SqlSugarAPI\Myblog.Repository\obj\Release\net5.0\Myblog.Repository.AssemblyInfoInputs.cache
+E:\VS2022\SqlSugarAPI\SqlSugarAPI\Myblog.Repository\obj\Release\net5.0\Myblog.Repository.AssemblyInfo.cs
+E:\VS2022\SqlSugarAPI\SqlSugarAPI\Myblog.Repository\obj\Release\net5.0\Myblog.Repository.csproj.CoreCompileInputs.cache
+E:\VS2022\SqlSugarAPI\SqlSugarAPI\Myblog.Repository\obj\Release\net5.0\Myblog.Repository.dll
+E:\VS2022\SqlSugarAPI\SqlSugarAPI\Myblog.Repository\obj\Release\net5.0\ref\Myblog.Repository.dll
+E:\VS2022\SqlSugarAPI\SqlSugarAPI\Myblog.Repository\obj\Release\net5.0\Myblog.Repository.pdb

@@ -39,7 +39,9 @@ namespace MyBlog.Repository
             base.Context.CodeFirst.InitTables(
                 typeof(CodeFirstTable),
                 typeof(UserInfo),
-                typeof(NewsTable)
+                typeof(NewsTable),
+                typeof(Soft),
+                typeof(UserAndNews)
                 );//这样一个表就能成功创建了
 
         }

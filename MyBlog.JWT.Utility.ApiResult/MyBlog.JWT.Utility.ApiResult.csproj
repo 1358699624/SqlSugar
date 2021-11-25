@@ -19,4 +19,6 @@
     <ProjectReference Include="..\MyBolg.Service\MyBolg.Service.csproj" />
   </ItemGroup>
 
+  <ProjectExtensions><VisualStudio><UserProperties properties_4launchsettings_1json__JsonSchema="" /></VisualStudio></ProjectExtensions>
+
 </Project>

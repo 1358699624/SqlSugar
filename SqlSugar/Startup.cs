@@ -48,7 +48,7 @@ namespace SqlSugar
             services.AddSwaggerGen(c =>
             {
                 c.ResolveConflictingActions(apiDescriptions => apiDescriptions.First());
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Myblog.WebApi", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Myblog.WebApi", Version = "v2" });
 
                 // 获取xml文件名
                 var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";

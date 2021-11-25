@@ -13,6 +13,10 @@ D:\VS2019\SqlSugatApi\SqlSugar\Myblog.IRepository\obj\Debug\net5.0\MyBlog.IRepos
 D:\VS2019\SqlSugatApi\SqlSugar\Myblog.IRepository\obj\Debug\net5.0\MyBlog.IRepository.dll
 D:\VS2019\SqlSugatApi\SqlSugar\Myblog.IRepository\obj\Debug\net5.0\ref\MyBlog.IRepository.dll
 D:\VS2019\SqlSugatApi\SqlSugar\Myblog.IRepository\obj\Debug\net5.0\MyBlog.IRepository.pdb
+E:\VS2022\SqlSugarAPI\SqlSugarAPI\Myblog.IRepository\obj\Debug\net5.0\MyBlog.IRepository.GeneratedMSBuildEditorConfig.editorconfig
+E:\VS2022\SqlSugarAPI\SqlSugarAPI\Myblog.IRepository\obj\Debug\net5.0\MyBlog.IRepository.AssemblyInfoInputs.cache
+E:\VS2022\SqlSugarAPI\SqlSugarAPI\Myblog.IRepository\obj\Debug\net5.0\MyBlog.IRepository.AssemblyInfo.cs
+E:\VS2022\SqlSugarAPI\SqlSugarAPI\Myblog.IRepository\obj\Debug\net5.0\MyBlog.IRepository.csproj.CoreCompileInputs.cache
 E:\VS2022\SqlSugarAPI\SqlSugarAPI\Myblog.IRepository\bin\Debug\net5.0\MyBlog.IRepository.deps.json
 E:\VS2022\SqlSugarAPI\SqlSugarAPI\Myblog.IRepository\bin\Debug\net5.0\MyBlog.IRepository.dll
 E:\VS2022\SqlSugarAPI\SqlSugarAPI\Myblog.IRepository\bin\Debug\net5.0\ref\MyBlog.IRepository.dll
@@ -20,11 +24,7 @@ E:\VS2022\SqlSugarAPI\SqlSugarAPI\Myblog.IRepository\bin\Debug\net5.0\MyBlog.IRe
 E:\VS2022\SqlSugarAPI\SqlSugarAPI\Myblog.IRepository\bin\Debug\net5.0\MyBlog.Model.dll
 E:\VS2022\SqlSugarAPI\SqlSugarAPI\Myblog.IRepository\bin\Debug\net5.0\MyBlog.Model.pdb
 E:\VS2022\SqlSugarAPI\SqlSugarAPI\Myblog.IRepository\obj\Debug\net5.0\MyBlog.IRepository.csproj.AssemblyReference.cache
-E:\VS2022\SqlSugarAPI\SqlSugarAPI\Myblog.IRepository\obj\Debug\net5.0\MyBlog.IRepository.GeneratedMSBuildEditorConfig.editorconfig
-E:\VS2022\SqlSugarAPI\SqlSugarAPI\Myblog.IRepository\obj\Debug\net5.0\MyBlog.IRepository.AssemblyInfoInputs.cache
-E:\VS2022\SqlSugarAPI\SqlSugarAPI\Myblog.IRepository\obj\Debug\net5.0\MyBlog.IRepository.AssemblyInfo.cs
-E:\VS2022\SqlSugarAPI\SqlSugarAPI\Myblog.IRepository\obj\Debug\net5.0\MyBlog.IRepository.csproj.CoreCompileInputs.cache
+E:\VS2022\SqlSugarAPI\SqlSugarAPI\Myblog.IRepository\obj\Debug\net5.0\MyBlog.IRepository.csproj.CopyComplete
 E:\VS2022\SqlSugarAPI\SqlSugarAPI\Myblog.IRepository\obj\Debug\net5.0\MyBlog.IRepository.dll
 E:\VS2022\SqlSugarAPI\SqlSugarAPI\Myblog.IRepository\obj\Debug\net5.0\ref\MyBlog.IRepository.dll
 E:\VS2022\SqlSugarAPI\SqlSugarAPI\Myblog.IRepository\obj\Debug\net5.0\MyBlog.IRepository.pdb
-E:\VS2022\SqlSugarAPI\SqlSugarAPI\Myblog.IRepository\obj\Debug\net5.0\MyBlog.IRepository.csproj.CopyComplete
